@@ -1,0 +1,30 @@
+{:navgroup: .navgroup}{:topicgroup: .topicgroup}
+
+{: .toc subcollection="software" audience="compute" href="/docs/infrastructure/software/index.html"}
+IBM Bluemix Software
+
+	{: .navgroup id="learn"}
+	index.md
+	{: .navgroup-end}
+
+	{: .navgroup id="howto"}
+	{: .topicgroup}
+	Operating Systems
+		vsi_reload_os.md
+	 	vsi_reload_os_image.md
+		os-reload-question-faq.md
+		microsoft-windows-update-instructions.md
+		redhat-update-instructions.md
+		suse-runlevels-booting-single-user-mode.md
+		adding-ipv6-ubuntu-systems.md
+
+	{: .topicgroup}
+	Security
+		avshost-ids-topic-description.md	
+		install-clamav.md
+
+	{: .topicgroup}
+	Control Panel
+		notify-users-approaching-bandwidth-limitation-cpanelwhm.md
+		why-did-my-cpsrvd-email-fail.md
+	{: .navgroup-end}

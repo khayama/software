@@ -15,7 +15,6 @@ IBM Bluemix Software
 		os-reload-question-faq.md
 		microsoft-windows-update-instructions.md
 		redhat-update-instructions.md
-		suse-runlevels-booting-single-user-mode.md
 		adding-ipv6-ubuntu-systems.md
 
 	{: .topicgroup}

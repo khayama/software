@@ -66,7 +66,7 @@ If the neighbor cache shows a fe80 entry, one of the following conditions may ap
     default via 2607:f0d0:2001::1  metric 1024  mtu 1500 advmss 1440 hoplimit 4294967295
     root@server:~#
 
-If the default gateway is not listed, you can use the ```ping6``` command to find your default gateway then add it manually using this IP command:
+If the default gateway is not listed, you can use the `ping6` command to find your default gateway then add it manually using this IP command:
 
     root@server:~# ip -6 route add default via 2607:f0d0:2001::1
     root@server:~#

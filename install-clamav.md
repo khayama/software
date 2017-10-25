@@ -10,7 +10,7 @@ lastupdated: "2017-09-26"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Install ClamAV
+# Installing ClamAV
 
 Use this procedure to install ClamAV.
 

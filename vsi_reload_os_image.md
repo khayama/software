@@ -16,7 +16,7 @@ lastupdated: "2017-09-25"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Reload an OS using an image template
+# Reloading an OS using an image template
 
 ## Differences between a standard OS reload and a reload from an image template
 During the standard OS Reload process, you select configuration options for the device individually. When you reload from an image template, the configuration loads exactly as it appears in the image template. 

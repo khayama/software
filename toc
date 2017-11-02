@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}{:topicgroup: .topicgroup}
 
 {: .toc subcollection="software" audience="compute" href="/docs/infrastructure/software/index.html"}
-IBM Bluemix Software
+{{site.data.keyword.cloud_notm}}
 
 	{: .navgroup id="learn"}
 	index.md

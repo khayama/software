@@ -18,7 +18,7 @@ IBM Cloud Software
 	notify-users-approaching-bandwidth-limitation-cpanelwhm.md
 	{: .navgroup-end}
 
-	{: .navgroup id="FAQs"}
+	{: .navgroup id="help"}
 	os-reload-question-faq.md
 	why-did-my-cpsrvd-email-fail.md
 	{: .navgroup-end}

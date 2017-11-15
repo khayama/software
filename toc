@@ -21,3 +21,4 @@ IBM Cloud Software
 	{: .navgroup id="FAQs"}
 	os-reload-question-faq.md
 	why-did-my-cpsrvd-email-fail.md
+	{: .navgroup-end}

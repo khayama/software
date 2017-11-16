@@ -1,0 +1,23 @@
+{:navgroup: .navgroup}{:topicgroup: .topicgroup}
+
+{: .toc subcollection="software" audience="compute" href="/docs/infrastructure/software/index.html"}
+IBM Bluemix 软件
+
+	{: .navgroup id="learn"}
+	index.md
+	microsoft-windows-update-instructions.md
+	redhat-update-instructions.md
+	avshost-ids-topic-description.md
+	{: .navgroup-end}
+
+	{: .navgroup id="howto"}
+	vsi_reload_os.md
+	vsi_reload_os_image.md
+	adding-ipv6-ubuntu-systems.md
+	install-clamav.md
+	notify-users-approaching-bandwidth-limitation-cpanelwhm.md
+	{: .navgroup-end}
+
+	{: .navgroup id="FAQs"}
+	os-reload-question-faq.md
+	why-did-my-cpsrvd-email-fail.md

@@ -24,3 +24,22 @@ If you need software that is not currently supported, use your root access to th
 For software documentation, refer to the documentation of the vendor who produces the software.
 
 In the cases that are described in this section, IBM includes instructions or considerations for using products in the {{site.data.keyword.BluSoftlayer_notm}} environment.
+
+## Supported operating systems for IBM Cloud virtual servers
+IBM Cloud virtual servers support the following operating systems.
+
+- Cent OS 6 (PV)
+- Cent OS 7 (HVM)
+- Debian 7 (PV)
+- Debian 8 (HVM)
+- RHEL 6 (PV)
+- RHEL 7 (HVM)
+- Ubuntu 14 (PV)<!--defaults to PV with ability to toggle to HVM-->
+- Ubuntu 16 (PV)<!--defaults to PV with ability to toggle to HVM-->
+- Windows 2012 (HVM)
+- Windows 2012 R2 (HVM)
+- Windows 2016 (HVM)
+
+**Note:** Boot disc sizes vary by operating system:<br>  
+Linux OS supports 25 GB and 100 GB
+Windows supports only 100 GB

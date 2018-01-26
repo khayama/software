@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2017, 2018
-lastupdated: "2018-01-25"
+lastupdated: "2018-01-26"
 
 ---
 
@@ -26,7 +26,7 @@ For software documentation, refer to the documentation of the vendor who produce
 In the cases that are described in this section, IBM includes instructions or considerations for using products in the {{site.data.keyword.BluSoftlayer_notm}} environment.
 
 ## Supported operating systems for IBM Cloud virtual servers
-IBM Cloud virtual servers support the following operating systems.
+IBM Cloud virtual servers support the following operating systems in _Hardware Virtual Machine_ (HVM) or _Paravirtualization_ (PV) boot modes as noted in the following list.
 
 - Cent OS 6 (PV)
 - Cent OS 7 (HVM)

@@ -34,7 +34,7 @@ IBM Cloud virtual servers support the following operating systems.
 - RHEL 6 (PV)
 - RHEL 7 (HVM)
 - Ubuntu 14 (PV)<!--defaults to PV with ability to toggle to HVM-->
-- Ubuntu 16 (PV/HVM) defaults to PV with ability to toggle to HVM
+- Ubuntu 16 (PV/HVM) defaults to PV boot mode, but you can to toggle to HVM boot mode
 - Windows 2012 (HVM)
 - Windows 2012 R2 (HVM)
 - Windows 2016 (HVM)

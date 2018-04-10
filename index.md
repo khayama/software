@@ -31,6 +31,7 @@ IBM Cloud virtual servers support the following operating systems.
 - Cent OS 7 (HVM)
 - Debian 7 (PV)
 - Debian 8 (HVM)
+- Debian 9 (HVM)
 - RHEL 6 (PV)
 - RHEL 7 (HVM)
 - Ubuntu 14 (PV/HVM) defaults to PV boot mode, but you can to toggle to HVM boot mode

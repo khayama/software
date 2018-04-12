@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-12-15"
+  years: 2017, 2018
+lastupdated: "2018-04-08"
 
 ---
 {:new_window: target="_blank"}
@@ -12,16 +12,16 @@ lastupdated: "2017-12-15"
 
 Below is the process for completing a bare metal restore to public/private {{site.data.keyword.BluVirtServers_full}} or {{site.data.keyword.BluBareMetServers_full}}. This process would be followed in the case of a server failure that causes data/OS loss. This process will restore all file system blocks backed up (including the OS and any files that were not excluded from backups). This process should not be followed if the restoration of a subset of files is the objective (Refer to [R1Soft Wiki](http://wiki.r1soft.com/display/CDP/Restoring+Files){:new_window} for restotration of the files only).
 
-## R1Soft Server Tasks 
+## R1Soft Server Tasks
 
 1. Log into R1Soft server via browser (IP and admin password available via the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}).
 2. Click on **Recovery Points** on the bottom left-hand side of the R1Soft management portal.
 3. Select the server you wish to restore and the **Disk Safe** you wish to you restore from.
 4. Locate in the list of recovery points the point from which you want to restore.
 5. Click the **shield** icon (MouseOver text reads Bare Metal Restore).
- 
- 
-## Restore Device Tasks 
+
+
+## Restore Device Tasks
 
 1. Click into the device you wish you restore in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Click the **Actions** menu and choose **Boot from image** you will get a list of private images.
@@ -37,7 +37,7 @@ Below is the process for completing a bare metal restore to public/private {{sit
 12. Type `service cdp-agent restart` (This should start the CDP agent if it isn't already running).
 
 
-## R1Soft Server Tasks 
+## R1Soft Server Tasks
 
 1. Click **Next** on the wizard.
 2. Select filesystems to be restored and click **Next**.
@@ -51,7 +51,7 @@ Below is the process for completing a bare metal restore to public/private {{sit
 10. You should then get a window showing you the status of the current restoration.
 
 
-## Restore Device Tasks 
+## Restore Device Tasks
 
 1. Once restore is complete, in the **Device Details** page on the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}, choose **Boot From Image** again.
 2. A frame will appear mentioning that this device is currently configured to boot from the r1soft-cdp-bootcd-agent-4.0.0.iso image and it will ask you if you want to unload the image and return ot normal booting.

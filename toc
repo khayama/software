@@ -11,16 +11,13 @@ IBM Cloud Software
 	{: .navgroup-end}
 
 	{: .navgroup id="howto"}
+	order-software.md
 	vsi_reload_os.md
 	vsi_reload_os_image.md
 	adding-ipv6-ubuntu-systems.md
 	install-clamav.md
 	notify-users-approaching-bandwidth-limitation-cpanelwhm.md
-
-	{: .topicgroup}
-	R1Soft
-		how-to-restore-server-r1soft-cdp.md
-		r1soft-cdp-bare-metal-restore-procedures.md
+	r1soft-cdp-bare-metal-restore-procedures.md
 	{: .navgroup-end}
 
 	{: .navgroup id="help"}

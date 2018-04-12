@@ -12,7 +12,7 @@ lastupdated: "2017-09-26"
 
 # Adding IPv6 to Ubuntu systems
 
-Use this procedure to bind IPv6 IP addresses to your Ubuntu server. 
+Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
 
 1. Edit your **/etc/network/interfaces** file and add the following lines to the end of the file.
 
@@ -34,7 +34,7 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
 
 ## Verifying IPv6 connectivity
 
-### Verify IPv6 IP is bound
+### Verify that IPv6 IP is bound
 
     root@server:~# ip -6 address show eth1
     3: eth1: mtu 1500 qlen 1000
@@ -51,7 +51,7 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
     2607:f0d0:2001::1 lladdr 00:1b:0d:e6:57:c0 router REACHABLE
     root@server:~#
 
-If the neighbor cache shows a fe80 entry, one of the following conditions may apply:
+If the neighbor cache shows a fe80 entry, one of the following conditions can apply:
 - The  gateway is not set
 - The IP is not bound to the correct interface
 - The IP is not bound correctly to the public interface

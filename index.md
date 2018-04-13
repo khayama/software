@@ -40,7 +40,7 @@ IBM Cloud virtual servers support the following operating systems.
 - Windows 2012 R2 (HVM)
 - Windows 2016 (HVM)
 
-**Note:** Boot disc sizes vary by operating system:<br>  
+**Note:** Boot disk sizes vary by operating system:<br>  
 Linux OS supports 25 GB and 100 GB
 Windows supports only 100 GB
 

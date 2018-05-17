@@ -45,7 +45,7 @@ Linux OS supports 25 GB and 100 GB
 Windows supports only 100 GB
 
 For more information about toggliing between PV and HVM boot modes, see the following links:
-* [Virtual guest supported boot modes ![External link icon](../icons/launch-glyph.svg "External link icon")](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSupportedBootModes){: new_window}
-* [Add boot mode option ![External link icon](../icons/launch-glyph.svg "External link icon")](https://github.com/softlayer/softlayer-python/pull/936/files/09c35a9595651d66f3e117a055efe585745ba2b3){: new_window}
+* [Virtual guest supported boot modes ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSupportedBootModes){: new_window}
+* [Add boot mode option ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/softlayer/softlayer-python/pull/936/files/09c35a9595651d66f3e117a055efe585745ba2b3){: new_window}
 
 

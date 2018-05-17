@@ -17,6 +17,7 @@ IBM Cloud Software
 	adding-ipv6-ubuntu-systems.md
 	install-clamav.md
 	notify-users-approaching-bandwidth-limitation-cpanelwhm.md
+	local-wsus.md
 	r1soft-cdp-bare-metal-restore-procedures.md
 	{: .navgroup-end}
 

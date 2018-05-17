@@ -32,6 +32,6 @@ Always test kernel or service pack upgrades before you install them in productio
 
 ## WSUS - Windows Server Update Services
 
-Microsoft Windows servers automatically pull updates from local Windows Server Update Services (WSUS) servers.
+In many cases, Microsoft Windows servers automatically pull updates from local Windows Server Update Services (WSUS) servers. However, if your server is provisioned with a cloud-init enabled image, you might need to manually update the Windows registry to use local {{site.data.keyword.cloud_notm}} Windows Server Update Services (WSUS) servers, rather than the default Microsoft WSUS servers. If you order a virtual server with a Windows Server operating system without any add ons, such as additional software, post-provisioning scripts, or advanced monitoring, it is likely that your server is provisioned with a cloud-init image. For more information about updating your registry to point to {{site.data.keyword.cloud_notm}} WSUS servers, see [Updating instance to use local WSUS server](local-wsus.html).
 
 For Microsoft Windows operating systems, servers are configured by default to download and install patches as soon as they become available. The server restarts automatically if it is required. These updates are done to help protect servers from crucial vulnerabilities. If you prefer to schedule your updates differently, you can change the update schedule through the **Windows Updates** feature in the Control Panel.

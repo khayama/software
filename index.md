@@ -25,10 +25,9 @@ Table 1 contains steps to help you order software.
    <TBODY>
    <tr>
    <td>1. Review content that can help with your implementation</td>
-   <td>New to IBM Cloud and bare metal servers? The following sites provide useful information to help you plan your environment.
+   <td>New to IBM Cloud? The following sites provide useful information to help you plan your environment.
    <li><a href="https://ibm.com/cloud-computing/">What is IBM Cloud</a></li>
    <li><a href="https://ibm.com/cloud/get-started">Getting started with IBM Cloud</a></li>
-   <li><a href="https://www.ibm.com/cloud/bare-metal-servers">Bare Metal Servers</a></li>
    </td>
  <tr>
    <td>2. Sign up for IBM Cloud</td>
@@ -45,7 +44,7 @@ Table 1 contains steps to help you order software.
    </td>
    <tr>   
    <td>5. Order your software as part of provisioning a new server or to add software to an existing server.</td>
-   <td>To order software as part of the provisioning process for new bare-metal or virtual servers, you can select system addons, storage addons, and service addons:
-   [Getting started with bare metal servers](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers)
-   [Getting started with virtual servers](https://console.bluemix.net/docs/vsi/vsi_index.html#getting-started-with-virtual-servers) <br>
+   <td>To order software as part of the provisioning process for new bare-metal or virtual servers, you can select system addons, storage addons, and service addons:<br>
+   [Getting started with bare metal servers](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers)<br>
+   [Getting started with virtual servers](https://console.bluemix.net/docs/vsi/vsi_index.html#getting-started-with-virtual-servers) <br><br>
    To order software on an existing server, follow the [OS Reload](../software/vsi_reload_os.html) procedure. Select **edit** from the Installed Software categories and select the software to add. <br>

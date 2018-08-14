@@ -5,19 +5,22 @@ IBM Cloud Software
 
 	{: .navgroup id="learn"}
 	index.md
+	about.md
 	microsoft-windows-update-instructions.md
 	redhat-update-instructions.md
 	avshost-ids-topic-description.md
 	{: .navgroup-end}
 
 	{: .navgroup id="howto"}
-	order-software.md
 	vsi_reload_os.md
 	vsi_reload_os_image.md
 	adding-ipv6-ubuntu-systems.md
 	install-clamav.md
 	notify-users-approaching-bandwidth-limitation-cpanelwhm.md
 	local-wsus.md
+	prov-R1Soft.md
+	configR1Soft.md
+	r1SoftUpgrade.md
 	r1soft-cdp-bare-metal-restore-procedures.md
 	{: .navgroup-end}
 

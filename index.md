@@ -1,51 +1,51 @@
 ---
+
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-08"
+  years: 2018
+lastupdated: "2018-08-14"
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
 {:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
+{:shortdesc: .shortdesc}
 
-# About software
+# Getting started tutorial
 
-{{site.data.keyword.BluSoftlayer_full}} has strategic relationships with vendors to provide month-to-month licenses on 32-bit and 64-bit compatible software.  When you order a device, you select the type of operating system and software for your device. You can add more software to your device within the {{site.data.keyword.slportal_full}} and change to another operating system by performing an OS reload <!-- (../managing/perform-os-reload-device.html)--> on your existing device. The IBM automated system provisions software onto your server by using best practice guidelines of each vendor to ensure maximum stability and availability.
+You have two options for ordering software for your server. You can order it as part of your initial provisioning of a server, or you can add it to an existing server using an OS reload.
 
-See the following list of currently supported software: [Cloud server software ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/cloud-server-software){: new_window}.
-
-If you need software that is not currently supported, use your root access to the server to install and configure your own version of that software.  To return to a supported version on your device, perform an OS reload.
-
-For software documentation, refer to the documentation of the vendor who produces the software.
-
-In the cases that are described in this section, IBM includes instructions or considerations for using products in the {{site.data.keyword.BluSoftlayer_notm}} environment.
-
-## Supported operating systems for IBM Cloud virtual servers
-IBM Cloud virtual servers support the following operating systems.
-
-- Cent OS 6 (PV)
-- Cent OS 7 (HVM)
-- Debian 7 (PV)
-- Debian 8 (HVM)
-- Debian 9 (HVM)
-- RHEL 6 (PV)
-- RHEL 7 (HVM)
-- Ubuntu 14 (PV/HVM) defaults to PV boot mode, but you can to toggle to HVM boot mode
-- Ubuntu 16 (PV/HVM) defaults to PV boot mode, but you can to toggle to HVM boot mode
-- Windows 2012 (HVM)
-- Windows 2012 R2 (HVM)
-- Windows 2016 (HVM)
-
-**Note:** Boot disk sizes vary by operating system:<br>  
-Linux OS supports 25 GB and 100 GB
-Windows supports only 100 GB
-
-For more information about toggliing between PV and HVM boot modes, see the following links:
-* [Virtual guest supported boot modes ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group/getSupportedBootModes){: new_window}
-* [Add boot mode option ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/softlayer/softlayer-python/pull/936/files/09c35a9595651d66f3e117a055efe585745ba2b3){: new_window}
-
-
+Table 1 contains steps to help you order software.
+<table>
+   <CAPTION>Table 1. Quick start steps</CAPTION>
+   <THEAD>
+   <TR>
+   <th>Task</th>
+   <th>Details</th>
+   </TR>
+   </THEAD>
+   <TBODY>
+   <tr>
+   <td>1. Review content that can help with your implementation</td>
+   <td>New to IBM Cloud and bare metal servers? The following sites provide useful information to help you plan your environment.
+   <li><a href="https://ibm.com/cloud-computing/">What is IBM Cloud</a></li>
+   <li><a href="https://ibm.com/cloud/get-started">Getting started with IBM Cloud</a></li>
+   <li><a href="https://www.ibm.com/cloud/bare-metal-servers">Bare Metal Servers</a></li>
+   </td>
+ <tr>
+   <td>2. Sign up for IBM Cloud</td>
+   <td><a href="https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-ibm-cloud">Signing up for IBM Cloud</a> has the steps on how to set up your IBM Cloud account.</td>
+ <tr>
+   <td>3. Select the software you need from the list of currently supported software.</td>
+   <td>[Cloud server software ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/cloud-server-software){: new_window}</td>
+   **Note:** Not all software options are available for all server types and not all software options are the same for monthly and hourly billing.
+ <tr>
+   <td>4. Log in to your IBM Cloud account</td>
+   <td>You can access the Bare Metal Server Order Form from either the IBM Cloud Catalog or the IBM Cloud infrastructure customer portal. You need an <a href="https://console.bluemix.net/docs/customer-portal/getting-started.html#getting-started">IBMid and password</a> to access the Catalog and infrastructure customer portal.
+   <li><a href="https://console.bluemix.net/catalog/">IBM Cloud Catalog</a></li>
+   <li><a href="https://control.softlayer.com">IBM Cloud infrastructure customer portal</a></li>  
+   </td>
+   <tr>   
+   <td>5. Order your software as part of provisioning a new server or to add software to an existing server.</td>
+   <td>To order software as part of the provisioning process for new bare-metal or virtual servers, you can select system addons, storage addons, and service addons:
+   [Getting started with bare metal servers](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers)
+   [Getting started with virtual servers](https://console.bluemix.net/docs/vsi/vsi_index.html#getting-started-with-virtual-servers) <br>
+   To order software on an existing server, follow the [OS Reload](../software/vsi_reload_os.html) procedure. Select **edit** from the Installed Software categories and select the software to add. <br>

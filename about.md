@@ -17,7 +17,7 @@ lastupdated: "2018-08-14"
 
 {{site.data.keyword.BluSoftlayer_full}} has strategic relationships with vendors to provide month-to-month licenses on 32-bit and 64-bit compatible software.  When you order a device, you select the type of operating system and software for your device. You can add more software to your device within the {{site.data.keyword.slportal_full}} and change to another operating system by performing an OS reload <!-- (../managing/perform-os-reload-device.html)--> on your existing device. The IBM automated system provisions software onto your server by using best practice guidelines of each vendor to ensure maximum stability and availability.
 
-See the following list of currently supported software: [Cloud server software ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/cloud-server-software){: new_window}.
+See the following list of currently supported software: [Cloud server software ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/node/153){: new_window}.
 
 If you need software that is not currently supported, use your root access to the server to install and configure your own version of that software.  To return to a supported version on your device, perform an OS reload.
 

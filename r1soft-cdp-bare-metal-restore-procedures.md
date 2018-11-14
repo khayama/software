@@ -10,13 +10,15 @@ lastupdated: "2018-04-08"
 
 # Restoring your server from an R1Soft image
 
-Below is the process for completing a restore to public/private {{site.data.keyword.BluVirtServers_full}} or {{site.data.keyword.BluBareMetServers_full}}. This process would be followed in the case of a server failure that causes data/OS loss. This process will restore all file system blocks backed up (including the OS and any files that were not excluded from backups). This process should not be followed if the restoration of a subset of files is the objective (Refer to [R1Soft Wiki](http://wiki.r1soft.com/display/CDP/Restoring+Files){:new_window} for restotration of the files only).
+Use this procedure to complete a restore to public or private {{site.data.keyword.BluVirtServers_full}} or {{site.data.keyword.BluBareMetServers_full}}. Use this process if a server failure causes data or OS loss. This process restores all file system blocks that are backed up (including the OS and any files that were not excluded from backups).
+
+Do not use this process if the restoration of a subset of files is the objective. To restore only the files, see [R1Soft Wiki](http://wiki.r1soft.com/display/CDP/Restoring+Files){:new_window}.
 
 ## Restoring your virtual device
 
-1. Click into the device you wish you restore in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+1. Click into the device you want you restore in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Click the **Actions** menu and choose **Boot from image** you get a list of private images.
-3. Choose **Public Images** from the drop-down menu.
+3. Choose **Public Images** from the menu.
 4. Choose the appropriate R1Soft agent boot image for your version of R1Soft server (serverbackup-centos-bootcd-agent.iso) and click **Boot From This Image** link on the right.
 5. From the **Device Details** page for the server that you are restoring, click **Actions** > **KVM Console**.
 6. After the console is up and the image boots, you will see a Debian bootloader screen with some options. Press the Enter key to boot from the default option.

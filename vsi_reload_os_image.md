@@ -103,4 +103,4 @@ The time frame timeframe that is displayed is an estimate made by the system and
 
 When the device returns online, it functions as specified in the new configuration for the OS Reload. All data that is previously saved to the device is lost, but can be restored if a backup was made of the device before its reload. If data was not backed up, it cannot be retrieved. 
 
-You will need to re-register your device with eVault. <!--using the folliwng link: ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.-->
+You will need to re-register your device with eVault.

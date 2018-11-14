@@ -11,6 +11,10 @@ lastupdated: "2017-09-10"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Anti-Virus/Spyware and Host IDS information
+# Anti-Virus, Spyware, and host IDs information
 
-IBM offers multiple solutions for both Anti-Virus/Spyware and Host IDS protection <!--- (http://www.softlayer.com/services/security /mcafeeAntiVirus) ---> on every device.  Anti-Virus/Spyware products are provided by McAfee and include both a standard and free solution for Windows systems as well as Total Protection for Windows systems for a nominal monthly fee.  We also offer Host IDS services to protect against known and zero-day attacks from Nessus as a free-of-charge solution or through McAfee for a monthly fee.  Both Anti-Virus/Spyware and Host IDS solutions must be added to your device for it to be protected and are easily managed using the IBM Customer Portal.  
+IBM offers multiple solutions for both Anti-Virus, Spyware, and host ID protection on every device. Anti-Virus and Spyware products are provided by McAfee. You can get a standard, free solution for Windows. You can also get a Total Protection for Windows for a monthly fee. 
+
+IBM also offers host ID services to protect against known and zero-day attacks from Nessus. This solution is free-of-charge. You can also get a solution through McAfee for a monthly fee. 
+
+You must add Anti-Virus, Spyware, and host ID solutions to your device for it to be protected. You can manage these solutions in the IBM Customer Portal.

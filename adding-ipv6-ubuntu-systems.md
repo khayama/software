@@ -22,13 +22,13 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
 	    address 2607:f0d0:2001:0000:0000:0000:0000:0010</br>
 	    netmask 64</br>
 		gateway 2607:f0d0:2001:0000:0000:0000:0000:0001</br>
-  The first line defines the interface on which the system uses IPv6. </br>
+  The first line defines the interface on which the system uses IPv6.</br>
   The second line loads the module for IPv6.<br/>
   The third line identifies the IPv6 address.<br/>
   The fourth line defines the netmask for the IPv6 subnet.<br/>
   The fifth line defines the default gateway for the IPv6 subnet.
 
-2. Restart networking:
+2. Restart networking with the following command:
 
 	'/etc/init.d/networking restart'
 
@@ -52,7 +52,7 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
     root@server:~#
 
 If the neighbor cache shows a fe80 entry, one of the following conditions can apply:
-- The  gateway is not set
+- The gateway is not set
 - The IP is not bound to the correct interface
 - The IP is not bound correctly to the public interface
 - The software firewall is blocking IPv6 ICMP.

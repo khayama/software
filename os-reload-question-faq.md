@@ -1,6 +1,6 @@
 ---
 copyright:
-  years: 1994, 2017
+  years: 2017, 2018
 lastupdated: "2017-09-25"
 ---
 
@@ -10,21 +10,26 @@ lastupdated: "2017-09-25"
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:faq: data-hd-content-type='faq'}
 
-# Frequently asked questions: OS Reload 
+# FAQs: OS Reload 
 
 ## Can the Operating System (OS) be changed on the device?
+{:faq}
 
 You can change your OS and the software that you installed by reloading an OS <!--[OS Reload](perform-os-reload-device.html){:new_window}-->. After you select OS Reload on the device, the system displays a link to a page that enables you to update the software on your system. You can update the OS, Control Panel, Antivirus packages, and database software from this page.
 
 ## Do you provide complimentary OS Reloads?
+{:faq}
 
 Automated OS reloads are free, including customized OS reloads such as changing operating systems, addition or removal of control panels, partition editing, and other options. Open the Customer Portal for more information.
 
 ## How can I track the status of the OS reload?
+{:faq}
 
 Under Hardware in the Customer Portal, there is a Notes section for each of your servers. The Notes section includes links to information about the current step of the reload and the estimated time to finish that portion of the reload.
 
 ## Will an OS reload erase secondary disks?
+{:faq}
 
 An OS reload only formats the primary disk on the system. All other disks are left alone. This works the same way when reloading from an image template. If the template contains more than one disks, only the primary disk is formatted. No changes are made to the other disks.

@@ -45,6 +45,6 @@ IBM tests kernel and service pack upgrades and posts related information and dri
 
 For Red Hat operating systems, IBM provides Red Hat Network Satellite servers to install critical and non-critical security updates.
 
-The Red Hat Network at {{site.data.keyword. Bluemix_notm}} includes RHN Satellite and Proxy servers. When your Red Hat server is provisioned, it is automatically registered to the IBM RHN Satellite server by using the appropriate proxy server. With this registration, you can use **up2date** commands locally on your servers and pull updates across the private service network.
+The Red Hat Network at {{site.data.keyword.Bluemix_notm}} includes RHN Satellite and Proxy servers. When your Red Hat server is provisioned, it is automatically registered to the IBM RHN Satellite server by using the appropriate proxy server. With this registration, you can use **up2date** commands locally on your servers and pull updates across the private service network.
 
 To ensure enterprise quality of service and facilitate proper change management techniques, Red Hat OS servers are configured by default to skip kernel updates. To ensure system stability, complete your kernel upgrades manually after you complete regression testing. IBM uses leading-edge hardware technologies that require stable kernel editions for proper performance.

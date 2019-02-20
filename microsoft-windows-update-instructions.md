@@ -14,7 +14,7 @@ lastupdated: "2017-09-27"
 # Microsoft Windows Update Information
 IBM provides OS and software update services for Microsoft Windows Server environments free of charge.
 
-All update services at {{site.data.keyword. Bluemix_notm}} share the following features:
+All update services at {{site.data.keyword.Bluemix_notm}} share the following features:
 * Update traffic is routed from your server (over your private VLAN) to the private service network
 * Update traffic is part of your unlimited private network bandwidth. This traffic does not reduce public bandwidth allotments.
 * Updates speeds are faster than updating from vendors directly (upgraded ports speeds available on demand)
@@ -23,7 +23,7 @@ All update services at {{site.data.keyword. Bluemix_notm}} share the following f
 * Servers are pre-configured to update automatically at deployment with manual updates available on demand.
 
 
-{{site.data.keyword. Bluemix_notm}} update servers are on the private service network with the following location identifiers.
+{{site.data.keyword.Bluemix_notm}} update servers are on the private service network with the following location identifiers.
 
 Microsoft, **wsus01.service.softlayer.com**
 
@@ -32,7 +32,7 @@ Always test kernel or service pack upgrades before you install them in productio
 
 ## WSUS Windows Server Update Services
 
-In many cases, Microsoft Windows servers automatically pull updates from local Windows Server Update Services (WSUS) servers. However, if your server is provisioned with a cloud-init enabled image, you might need to manually update the Windows registry to use local {{site.data.keyword.cloud_notm}} Windows Server Update Services (WSUS) servers, rather than the default Microsoft WSUS servers. 
+In many cases, Microsoft Windows servers automatically pull updates from local Windows Server Update Services (WSUS) servers. However, if your server is provisioned with a cloud-init enabled image, you might need to manually update the Windows registry to use local {{site.data.keyword.cloud_notm}} Windows Server Update Services (WSUS) servers, rather than the default Microsoft WSUS servers.
 
 If you order a virtual server with a Windows Server operating system without any add-ons, such as more software, post-provisioning scripts, or advanced monitoring, it is likely that your server is provisioned with a cloud-init image. For more information about updating your registry to point to {{site.data.keyword.cloud_notm}} WSUS servers, see [Updating instance to use local WSUS server](/docs/infrastructure/software/software/local-wsus.html).
 

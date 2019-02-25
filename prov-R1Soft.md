@@ -20,4 +20,4 @@ Use the [custom bare metal server provisioning](https://console.bluemix.net/docs
 * In the CDP Addon section, select the number of agents to add. You need one agent for every system you need to backup.
 
 ## Ordering R1Soft on an existing server
-Follow the [OS Reload](/docs/infrastructure/software/vsi_reload_os.html) procedure. In the Installed Software section edit the CDP Addon category, select R1Soft, and select the agent pack. You need one agent for every system you want to backup.
+Follow the [OS Reload](/docs/infrastructure/software?topic=software-reloading-the-os) procedure. In the Installed Software section edit the CDP Addon category, select R1Soft, and select the agent pack. You need one agent for every system you want to backup.

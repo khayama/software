@@ -48,4 +48,4 @@ Table 1 contains steps to help you order software.
    <td>To order software as part of the provisioning process for new bare-metal or virtual servers, you can select system add-ons, storage addons, and service addons:<br>
    [Getting started with bare metal servers](https://console.bluemix.net/docs/bare-metal/about.html#getting-started-with-bare-metal-servers)<br>
    [Getting started with virtual servers](https://console.bluemix.net/docs/vsi/vsi_index.html#getting-started-with-virtual-servers) <br><br>
-   To order software on an existing server, follow the [OS Reload](/docs/infrastructure/software/software/vsi_reload_os.html) procedure. Select **edit** from the Installed Software categories and select the software to add. <br>
+   To order software on an existing server, follow the [OS Reload](/docs/infrastructure/software/vsi_reload_os.html) procedure. Select **edit** from the Installed Software categories and select the software to add. <br>

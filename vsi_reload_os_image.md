@@ -1,11 +1,8 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-09-25"
-
 
 ---
 
@@ -19,7 +16,7 @@ lastupdated: "2017-09-25"
 # Reloading an OS using an image template
 
 ## Differences between a standard OS reload and a reload from an image template
-During the standard OS Reload process, you select configuration options for the device individually. When you reload from an image template, the configuration loads exactly as it appears in the image template. 
+During the standard OS Reload process, you select configuration options for the device individually. When you reload from an image template, the configuration loads exactly as it appears in the image template.
 
 In an image template reload, you can still add features before reloading the OS.
 
@@ -34,9 +31,9 @@ Use the following steps to reload an OS from an image template by using the Load
 3. Select the image template check box to for the image template to load on to the device.
 
    **Note:** Before completing the reload, the image template is copied to the data center that contains the device, if it is not already located in the same data center. If the image template must be copied to the data center, an fee might be charged if the template is not deleted from the location after the OS Reload occurs.
-  
+
 4. Determine whether you want to add any features. Any features that you select are added to the device as part of the reload process.
-   
+
    <table>
    <CAPTION>Table 1. Optional features</CAPTION>
    <THEAD>
@@ -66,7 +63,7 @@ Use the following steps to reload an OS from an image template by using the Load
    </table>
 
 5. Configure options, as relevant. Refer to the following information for more details.
-   
+
    <dl>
    <dt>Post Install script</dt>
    <dd>Adds an existing or new post-installation script.</dd>
@@ -101,6 +98,6 @@ The time period in which an OS reload takes place varies based on the current an
 Throughout the configuration process, the minimum time for the OS Reload is displayed on each screen.
 The time frame timeframe that is displayed is an estimate made by the system and is given as a courtesy. If the reload takes longer than 24 hours, contact IBM Support.
 
-When the device returns online, it functions as specified in the new configuration for the OS Reload. All data that is previously saved to the device is lost, but can be restored if a backup was made of the device before its reload. If data was not backed up, it cannot be retrieved. 
+When the device returns online, it functions as specified in the new configuration for the OS Reload. All data that is previously saved to the device is lost, but can be restored if a backup was made of the device before its reload. If data was not backed up, it cannot be retrieved.
 
 You will need to re-register your device with eVault.

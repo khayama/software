@@ -2,6 +2,7 @@
 copyright:
   years: 1994, 2017
 lastupdated: "2017-09-25"
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -12,7 +13,7 @@ lastupdated: "2017-09-25"
 {:table: .aria-labeledby="caption"}
 {:faq: data-hd-content-type='faq'}
 
-# FAQs: OS Reload 
+# FAQs: OS Reload
 
 ## Can the Operating System (OS) be changed on the device?
 {:faq}

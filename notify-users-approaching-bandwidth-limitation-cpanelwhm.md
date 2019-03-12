@@ -22,5 +22,5 @@ subcollection: software
 {: #notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm}
 
 1. Open cPanel.
-2. Under **Server Setup**, click **Tweak Settings**.
-3. In the **Mail=** section, enable **Email users when they have reached 80% of their bandwidth** and click **Save**.
+2. Under *Server Setup*, click *Tweak Settings*.
+3. In the **Mail=** section, enable *Email users when they reach 80% of their bandwidth* and click **Save**.

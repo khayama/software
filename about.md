@@ -15,6 +15,7 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # About software
+{: #about-software}
 
 {{site.data.keyword.BluSoftlayer_full}} has strategic relationships with vendors to provide month-to-month licenses on 32-bit and 64-bit compatible software.  When you order a device, you select the type of operating system and software for your device. You can add more software to your device within the {{site.data.keyword.slportal_full}} and change to another operating system by reloading the OS on your existing device. The IBM automated system provisions software onto your server by using best practice guidelines of each vendor to ensure maximum stability and availability.
 
@@ -26,6 +27,8 @@ IBM includes instructions or considerations for using products in the {{site.dat
 
 
 ## Supported operating systems for IBM Cloud virtual servers
+{: #supported-operating-systems-for-ibm-cloud-virtual-servers}
+
 IBM Cloud virtual servers support the following operating systems.
 
 - Cent OS 6 (PV)

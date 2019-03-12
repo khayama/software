@@ -15,6 +15,7 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Notifying Users of an Approaching Bandwidth Limitation in cPanel and WHM
+{: #notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm}
 
 1. Open cPanel.
 2. Under **Server Setup**, click **Tweak Settings**.

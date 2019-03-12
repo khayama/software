@@ -14,6 +14,7 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Installing ClamAV
+{: #installing-clamav}
 
 Use this procedure to install ClamAV.
 

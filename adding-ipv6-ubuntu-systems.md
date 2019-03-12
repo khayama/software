@@ -14,6 +14,7 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Adding IPv6 to Ubuntu systems
+{: #adding-ipv6-to-ubuntu-systems}
 
 Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
 
@@ -36,8 +37,10 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
 	'/etc/init.d/networking restart'
 
 ## Verifying IPv6 connectivity
+{: #verifying-ipv6-connectivity}
 
 ### Verify that IPv6 IP is bound
+{: #verify-that-ipv6-ip-is-bound}
 
     root@server:~# ip -6 address show eth1
     3: eth1: mtu 1500 qlen 1000
@@ -49,6 +52,7 @@ Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
 
 
 ### IPv6 Neighbor Cache
+{: #ipv6-neighbor-cache}
 
     root@server:~# ip -6 neighbor show dev eth1
     2607:f0d0:2001::1 lladdr 00:1b:0d:e6:57:c0 router REACHABLE
@@ -62,6 +66,7 @@ If the neighbor cache shows a fe80 entry, one of the following conditions can ap
 
 
 ### IPv6 Default Gateway
+{: #ipv6-default-gateway}
 
     root@server:~# ip -6 route show dev eth1
     2607:f0d0:2001::/64  proto kernel  metric 256  mtu 1500 advmss 1440 hoplimit 4294967295

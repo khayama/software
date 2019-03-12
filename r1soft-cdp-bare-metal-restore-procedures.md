@@ -11,12 +11,14 @@ subcollection: software
 {:shortdesc: .shortdesc}
 
 # Restoring your server from an R1Soft image
+{: #restoring-your-server-from-an-r1soft-image}
 
 Use this procedure to complete a restore to public or private {{site.data.keyword.BluVirtServers_full}} or {{site.data.keyword.BluBareMetServers_full}}. Use this process if a server failure causes data or OS loss. This process restores all file system blocks that are backed up (including the OS and any files that were not excluded from backups).
 
 Do not use this process if the restoration of a subset of files is the objective. To restore only the files, see [R1Soft Wiki](http://wiki.r1soft.com/display/CDP/Restoring+Files){:new_window}.
 
 ## Restoring your virtual device
+{: #restoring-your-virtual-device}
 
 1. Click into the device you want you restore in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Click the **Actions** menu and choose **Boot from image** you get a list of private images.
@@ -32,6 +34,7 @@ Do not use this process if the restoration of a subset of files is the objective
 12. Type `service cdp-agent restart` (This command starts the Tivoli Continuous Data Protection for Files agent if it isn't already running).
 
 ## Restoring your bare metal device
+{: #restoring-your-bare-metal-device}
 
 1. Open a ticket in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} and request that we boot your bare metal server in **R1Soft Bare Metal Restore mode**.
 2. Using the **Device Details** page for the server that you are restoring, log in to the **IPMI KVM console**.
@@ -44,6 +47,7 @@ Do not use this process if the restoration of a subset of files is the objective
 9. Type `service cdp-agent restart` (This command starts the Tivoli Continuous Data Protection for Files agent if it isn't already running).
 
 ## Selecting the R1Soft server and other restore parameters and options
+{: #selecting-the-r1soft-server-and-other-restore-parameters-and-options}
 
 Refer to the R1Soft documentation for [Performing a Bare Metal Restore](http://wiki.r1soft.com/display/ServerBackup/Perform+a+bare-metal+restore)
 You need to select the server to restore and select the file system, portion tables, and other restore options.

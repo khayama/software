@@ -18,12 +18,16 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 #  Reloading the OS
+{: #reloading-the-os}
+
 You can reload the operating system (OS) on a device at any time to restore a device to its original working order, or to reconfigure a device with different software. An OS reload removes all data from the device and applies a "like new" configuration, as specified during the configuration process of the OS Reload setup. Because OS reloads clear all data from the device, if the data is not backed up before the reload, it is permanently deleted and cannot be retrieved.
 {:shortdesc}
 
 **Important:** If you want to retain your data, back up all data before you perform an OS reload.
 
 ## Reload the OS
+{: #reload-the-os}
+
 1. From the **Device List**, click the server that needs an OS Reload to show the Device Details page.
 2. From the **Actions** menu, select **OS Reload**.
 3. Determine whether you want to reload the existing configuration or reload the device with a new configuration.
@@ -104,6 +108,8 @@ You can reload the operating system (OS) on a device at any time to restore a de
 10. Click **Confirm OS Reload** to confirm and initiate the OS Reload. Click **Cancel** to cancel the action.
 
 ## What's Next?
+{: #what-s-next-reloading-the-os}
+
 After you initiate the OS reload process, the device is taken offline and the OS Reload process begins.
 The time period in which an OS reload takes place varies based on the current and new configuration of the device.
 Throughout the configuration process, the minimum time for the OS Reload is displayed on each screen.

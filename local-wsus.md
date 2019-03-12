@@ -15,6 +15,7 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Updating an instance to use a local WSUS server
+{: #updating-an-instance-to-use-a-local-wsus-server}
 
 If your virtual server instance that is running Microsoft Windows was provisioned with a cloud-init enabled image, you might want to manually update the Windows registry to use local {{site.data.keyword.BluSoftlayer_full}} Windows Server Update Services (WSUS) servers, rather than the default Microsoft WSUS servers.
 {:shortdesc}

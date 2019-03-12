@@ -15,6 +15,8 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Microsoft Windows Update Information
+{: #microsoft-windows-update-information}
+
 IBM provides OS and software update services for Microsoft Windows Server environments free of charge.
 
 All update services at {{site.data.keyword.Bluemix_notm}} share the following features:
@@ -34,6 +36,7 @@ Always test kernel or service pack upgrades before you install them in productio
 
 
 ## WSUS Windows Server Update Services
+{: #wsus-windows-server-update-services}
 
 In many cases, Microsoft Windows servers automatically pull updates from local Windows Server Update Services (WSUS) servers. However, if your server is provisioned with a cloud-init enabled image, you might need to manually update the Windows registry to use local {{site.data.keyword.cloud_notm}} Windows Server Update Services (WSUS) servers, rather than the default Microsoft WSUS servers.
 

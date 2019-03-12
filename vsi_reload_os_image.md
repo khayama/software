@@ -16,8 +16,11 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Reloading an OS using an image template
+{: #reloading-an-os-using-an-image-template}
 
 ## Differences between a standard OS reload and a reload from an image template
+{: #differences-between-a-standard-os-reload-and-a-reload-from-an-image-template}
+
 During the standard OS Reload process, you select configuration options for the device individually. When you reload from an image template, the configuration loads exactly as it appears in the image template.
 
 In an image template reload, you can still add features before reloading the OS.
@@ -28,6 +31,8 @@ Use the following steps to reload an OS from an image template by using the Load
 {:shortdesc}
 
 ##Reload an OS
+{: #reload-an-os}
+
 1. From the **Device List**, click the server that needs an OS Reload to show the Device Details page.
 2. From the **Actions** menu, select **Load from Image**.
 3. Select the image template check box to for the image template to load on to the device.
@@ -95,6 +100,8 @@ Use the following steps to reload an OS from an image template by using the Load
 
 
 ## What's Next?
+{: #what-s-next-reloading-an-os-using-an-image-template}
+
 After you initiate the OS Reload process, the device is taken offline and the OS Reload process begins.
 The time period in which an OS reload takes place varies based on the current and new configuration of the device.
 Throughout the configuration process, the minimum time for the OS Reload is displayed on each screen.

@@ -15,6 +15,7 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Anti-Virus, Spyware, and host IDs information
+{: #anti-virus-spyware-and-host-ids-information}
 
 IBM offers multiple solutions for both Anti-Virus, Spyware, and host ID protection on every device. Anti-Virus and Spyware products are provided by McAfee. You can get a standard, free solution for Windows. You can also get a Total Protection for Windows for a monthly fee.
 

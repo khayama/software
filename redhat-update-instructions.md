@@ -17,6 +17,7 @@ subcollection: software
 
 
 # Red Hat Update Instructions
+{: #red-hat-update-instructions}
 
 IBM provides OS and software update services for Red Hat environments free of charge.
 
@@ -45,6 +46,7 @@ Always test kernel or service pack upgrades before you install them in productio
 IBM tests kernel and service pack upgrades and posts related information and drivers to help your upgrade process.
 
 ## RHN Subscription
+{: #rhn-subscription}
 
 For Red Hat operating systems, IBM provides Red Hat Network Satellite servers to install critical and non-critical security updates.
 

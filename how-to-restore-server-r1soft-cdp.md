@@ -4,6 +4,8 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-04-08"
 
+keywords: R1Soft
+
 subcollection: software
 
 ---
@@ -40,7 +42,7 @@ A window appears with the status of the current restoration
 
 1. Open a browser window and access [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
 2. Click **Devices**, **Device List** and select the device to be restored.
-3. Click **Actions** and choose **Boot from image** to display a list of private images. 
+3. Click **Actions** and choose **Boot from image** to display a list of private images.
 4. Choose **Public Images** from the menu.
 4. Choose the appropriate R1Soft agent boot image for your version of R1Soft server (*r1soft-cdp-bootcd-server-4.0.0.iso*) and click **Boot From This Image**.
 5. Click **Actions**, **KVM Console** from the Device Details page for the server you are restoring. After the console is up and the image is started, you see a Debian bootloader screen with some options.

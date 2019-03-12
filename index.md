@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-08-14"
 
+keywords: software, IPv6, Anti-virus, R1Soft, ClamAV, WSUS, OS reload, operating system, Email, Red Hat
+
 subcollection: software
 
 ---

@@ -4,6 +4,8 @@ copyright:
   years: 2017
 lastupdated: "2017-09-25"
 
+keywords: image template, OS Reload, operating system
+
 subcollection: software
 
 ---

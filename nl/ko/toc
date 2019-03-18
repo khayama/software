@@ -1,6 +1,6 @@
 {:navgroup: .navgroup}{:topicgroup: .topicgroup}
 
-{: .toc subcollection="software" audience="compute" href="/docs/infrastructure/software/index.html"}
+{: .toc subcollection="software" audience="compute" href="/docs/infrastructure/software/index.html" path="infrastructure/software"}
 IBM Bluemix 소프트웨어
 
 	{: .navgroup id="learn"}

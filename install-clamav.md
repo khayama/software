@@ -6,7 +6,6 @@ lastupdated: "2017-09-26"
 keywords: ClamAV
 
 subcollection: software
-
 ---
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}

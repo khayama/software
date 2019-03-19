@@ -9,7 +9,6 @@ lastupdated: "2017-09-25"
 keywords: OS Reload, operating system
 
 subcollection: software
-
 ---
 
 {:shortdesc: .shortdesc}

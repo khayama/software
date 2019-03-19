@@ -7,7 +7,6 @@ lastupdated: "2017-09-25"
 keywords: image template, OS Reload, operating system
 
 subcollection: software
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -99,7 +98,6 @@ Use the following steps to reload an OS from an image template by using the Load
    **Note:** After you click **Next**, all network ports for the device are systematically shut down and the device is unavailable for up to 15 minutes. During this time, the action can be canceled at any time by clicking **Cancel**. The next step must be completed within 15 minutes of clicking **Next** or the previous steps must be completed again. This process is in place as a safeguard to ensure that no additional data is added to a device between the configuration confirmation and the OS Reload initiation.
 
 8. Click **Confirm OS Reload** to confirm the action and begin the OS reload process. Click **Cancel** to cancel the action.
-
 
 ## What's Next?
 {: #what-s-next-reloading-an-os-using-an-image-template}

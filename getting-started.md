@@ -7,7 +7,6 @@ lastupdated: "2018-08-14"
 keywords: software, IPv6, Anti-virus, R1Soft, ClamAV, WSUS, OS reload, operating system, Email, Red Hat
 
 subcollection: software
-
 ---
 
 {:new_window: target="_blank"}
@@ -27,14 +26,14 @@ Table 1 contains steps to help you order software.
    <th>Details</th>
    </TR>
    </THEAD>
-   <TBODY>
+  <TBODY>
    <tr>
    <td>1. Review content that can help with your implementation</td>
    <td>New to IBM Cloud? The following sites provide useful information to help you plan your environment.
    <li><a href="https://ibm.com/cloud-computing/">What is IBM Cloud</a></li>
    <li><a href="https://ibm.com/cloud/get-started">Getting started with IBM Cloud</a></li>
    </td>
- <tr>
+   <tr>
    <td>2. Sign up for IBM Cloud</td>
    <td><a href="https://cloud.ibm.com/docs/admin/adminpublic.html#signing-up-for-ibm-cloud">Signing up for IBM Cloud</a> has the steps on how to set up your IBM Cloud account.</td>
  <tr>
@@ -53,3 +52,5 @@ Table 1 contains steps to help you order software.
    [Getting started with bare metal servers](https://cloud.ibm.com/docs/bare-metal/about.html#getting-started-with-bare-metal-servers)<br>
    [Getting started with virtual servers](https://cloud.ibm.com/docs/vsi/vsi_index.html#getting-started-with-virtual-servers) <br><br>
    To order software on an existing server, follow the [OS Reload](/docs/infrastructure/software?topic=software-reloading-the-os) procedure. Select **edit** from the Installed Software categories and select the software to add. <br>
+  </TBODY>
+</table>

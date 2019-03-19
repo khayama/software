@@ -66,7 +66,6 @@ If the neighbor cache shows a fe80 entry, one of the following conditions can ap
 - The IP is not bound correctly to the public interface
 - The software firewall is blocking IPv6 ICMP.
 
-
 ### IPv6 Default Gateway
 {: #ipv6-default-gateway}
 

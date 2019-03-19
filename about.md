@@ -6,7 +6,6 @@ lastupdated: "2018-02-08"
 keywords: software
 
 subcollection: software
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -26,7 +25,6 @@ See the following list of currently supported software: [Cloud server software !
 If you need software that is not currently supported, use your root access to the server to install and configure your own version of that software.  To return to a supported version on your device, reload the OS.
 
 IBM includes instructions or considerations for using products in the {{site.data.keyword.BluSoftlayer_notm}} environment. For software documentation, see the documentation of the vendor who produces the software.
-
 
 ## Supported operating systems for IBM Cloud virtual servers
 {: #supported-operating-systems-for-ibm-cloud-virtual-servers}

@@ -6,7 +6,6 @@ lastupdated: "2017-08-23"
 keywords: Red Hat, RedHat
 
 subcollection: software
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,8 +14,6 @@ subcollection: software
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
-
-
 
 # Red Hat Update Instructions
 {: #red-hat-update-instructions}

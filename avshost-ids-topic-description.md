@@ -6,7 +6,6 @@ lastupdated: "2017-09-10"
 keywords: Anti-Virus , host ID protection
 
 subcollection: software
-
 ---
 
 {:shortdesc: .shortdesc}

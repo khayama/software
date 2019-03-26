@@ -56,4 +56,4 @@ A window appears with the status of the current restoration
 13. Select **Boot From Image**. A frame appears stating that the device is configured to boot from the *r1soft-cdp-bootcd-agent-4.0.0.iso* image. You are prompted wih a question regarding unloading the image and returning to normal booting.
 14. Click **Yes** and the server will reboot from the system disk
 
-The server will run through a chkdsk or fsck process to verify the disk and may restart itself again. After the process completes, your server or VM is operational with data that is restored from your chosen restore point.
+The server will run through a chkdsk or fsck process to verify the disk. The server might restart after the disk is verified.After the process completes, your server or VM is operational with data that is restored from your chosen restore point.

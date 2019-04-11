@@ -1,10 +1,11 @@
 {:navgroup: .navgroup}{:topicgroup: .topicgroup}
 
-{: .toc subcollection="software" audience="compute" href="/docs/infrastructure/software/index.html" path="infrastructure/software"}
-IBM Bluemix ソフトウェア
+{: .toc subcollection="software" audience="compute" href="/docs/infrastructure/software?topic=software-getting-started" path="infrastructure/software"}
+IBM Cloud ソフトウェア
 
 	{: .navgroup id="learn"}
-	index.md
+	getting-started.md
+	about.md
 	microsoft-windows-update-instructions.md
 	redhat-update-instructions.md
 	avshost-ids-topic-description.md
@@ -16,8 +17,14 @@ IBM Bluemix ソフトウェア
 	adding-ipv6-ubuntu-systems.md
 	install-clamav.md
 	notify-users-approaching-bandwidth-limitation-cpanelwhm.md
+	local-wsus.md
+	prov-R1Soft.md
+	configR1Soft.md
+	r1SoftUpgrade.md
+	r1soft-cdp-bare-metal-restore-procedures.md
 	{: .navgroup-end}
 
-	{: .navgroup id="FAQs"}
+	{: .navgroup id="help"}
 	os-reload-question-faq.md
 	why-did-my-cpsrvd-email-fail.md
+	{: .navgroup-end}

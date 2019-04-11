@@ -1,14 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-09-25"
 
+keywords: image template, OS Reload, operating system
+
 subcollection: software
-
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,9 +17,12 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Recarregando um OS usando um modelo de imagem
+{: #reloading-an-os-using-an-image-template}
 
 ## Diferenças entre um recarregamento padrão do OS e um recarregamento de um modelo de imagem
-Durante o processo de Recarregamento de OS padrão, você seleciona opções de configuração para o dispositivo individualmente. Quando você recarrega de um modelo de imagem, a configuração é carregada exatamente como aparece no modelo de imagem. 
+{: #differences-between-a-standard-os-reload-and-a-reload-from-an-image-template}
+
+Durante o processo de Recarregamento de OS padrão, você seleciona opções de configuração para o dispositivo individualmente. Quando você recarrega de um modelo de imagem, a configuração é carregada exatamente como aparece no modelo de imagem.
 
 Em um recarregamento do modelo de imagem, ainda é possível incluir recursos antes de recarregar o OS.
 
@@ -31,14 +32,16 @@ Use as etapas a seguir para recarregar um OS de um modelo de imagem usando o rec
 {:shortdesc}
 
 ##Recarregar um OS
+{: #reload-an-os}
+
 1. Na **Lista de dispositivos**, clique no servidor que precisa de um Recarregamento de OS para mostrar a página Detalhes do dispositivo.
 2. No menu **Ações**, selecione **Carregar da imagem**.
 3. Marque a caixa de seleção do modelo de imagem para que o modelo de imagem seja carregado no dispositivo.
 
    **Nota:** antes de concluir o recarregamento, o modelo de imagem será copiado para o data center que contém o dispositivo, se ele ainda não estiver localizado no mesmo data center. Se o modelo de imagem tiver que ser copiado para o data center, uma taxa poderá ser cobrada se o modelo não for excluído do local depois que o Recarregamento de OS ocorrer.
-  
+
 4. Determine se deseja incluir algum recurso. Todos os recursos selecionados serão incluídos no dispositivo como parte do processo de recarregamento.
-   
+
    <table>
    <CAPTION>Tabela 1. Recursos opcionais</CAPTION>
    <THEAD>
@@ -68,7 +71,7 @@ Use as etapas a seguir para recarregar um OS de um modelo de imagem usando o rec
    </table>
 
 5. Configure as opções, conforme relevante. Consulte as informações a seguir para obter mais detalhes.
-   
+
    <dl>
    <dt>Script de pós-instalação</dt>
    <dd>Inclui um script de pós-instalação novo ou existente.</dd>
@@ -96,13 +99,14 @@ Use as etapas a seguir para recarregar um OS de um modelo de imagem usando o rec
 
 8. Clique em **Confirmar recarregamento de OS** para confirmar a ação e iniciar o processo de recarregamento OS. Clique em **Cancelar** para cancelar a ação.
 
-
 ## O que vem a seguir?
+{: #what-s-next-reloading-an-os-using-an-image-template}
+
 Depois de iniciar o processo de Recarregamento de OS, o dispositivo é colocado off-line e o processo de Recarregamento de OS começa.
 O período no qual um recarregamento de S.O. ocorre varia com base na configuração atual e nova do dispositivo.
 Durante o processo de configuração, o tempo mínimo para o Recarregamento de OS é exibido em cada tela.
 O prazo exibido é uma estimativa feita pelo sistema e é dado como cortesia. Se o recarregamento levar mais de 24 horas, entre em contato com o Suporte IBM.
 
-Quando o dispositivo retornar on-line, ele funcionará conforme especificado na nova configuração do Recarregamento de OS. Todos os dados salvos anteriormente no dispositivo são perdidos, mas poderão ser restaurados se tiver sido feito um backup do dispositivo antes de seu recarregamento. Caso não tenha sido feito backup dos dados, eles não poderão ser recuperados. 
+Quando o dispositivo retornar on-line, ele funcionará conforme especificado na nova configuração do Recarregamento de OS. Todos os dados salvos anteriormente no dispositivo são perdidos, mas poderão ser restaurados se tiver sido feito um backup do dispositivo antes de seu recarregamento. Caso não tenha sido feito backup dos dados, eles não poderão ser recuperados.
 
-Será necessário registrar novamente seu dispositivo com eVault. <!--using the folliwng link: ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.-->
+Será necessário registrar novamente seu dispositivo com o eVault.

@@ -3,6 +3,8 @@ copyright:
   years: 1994, 2017
 lastupdated: "2017-09-10"
 
+keywords: Anti-Virus , host ID protection
+
 subcollection: software
 ---
 
@@ -13,6 +15,11 @@ subcollection: software
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Descrição do tópico AV/S/IDS do host
+# Informações sobre antivírus, spyware e IDs do host
+{: #anti-virus-spyware-and-host-ids-information}
 
-A IBM oferece múltiplas soluções para a proteção Antivírus/Spyware e IDS do host <!--- (http://www.softlayer.com/services/security /mcafeeAntiVirus) ---> em cada dispositivo. Os produtos Antivírus/Spyware são fornecidos pela McAfee e incluem tanto uma solução padrão quanto uma grátis para sistemas Windows, assim como a Proteção total para sistemas Windows por uma taxa mensal nominal. Também oferecemos serviços de IDS do host para proteger contra ataques conhecidos e de dia zero da Nessus como uma solução gratuita ou por meio da McAfee por uma taxa mensal. As soluções Antivírus/Spyware e IDS do host devem ser incluídas em seu dispositivo para que ele seja protegido e facilmente gerenciado usando o Portal do cliente IBM.  
+A IBM oferece várias soluções para proteção de antivírus, spyware e ID do host em cada dispositivo. Os produtos antivírus e spyware são fornecidos por McAfee. É possível obter uma solução padrão e gratuita para o Windows. Também é possível obter uma proteção total para o Windows por uma taxa mensal.
+
+A IBM também oferece serviços de ID do host para proteger contra ataques conhecidos e de zero dias do Nessus. Essa solução é gratuita. Também é possível obter uma solução pela McAfee por uma taxa mensal.
+
+Deve-se incluir soluções antivírus, spyware e ID do host para seu dispositivo para que ele seja protegido. É possível gerenciar essas soluções no IBM Customer Portal.

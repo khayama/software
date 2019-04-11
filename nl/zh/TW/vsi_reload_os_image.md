@@ -1,14 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-09-25"
 
+keywords: image template, OS Reload, operating system
+
 subcollection: software
-
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,9 +17,12 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # 使用映像檔範本重新載入 OS
+{: #reloading-an-os-using-an-image-template}
 
 ## 標準 OS 重新載入與從映像檔範本重新載入的差異
-在標準「OS 重新載入」處理程序期間，您個別選取裝置的配置選項。當您從映像檔範本重新載入時，會確切地載入配置，就像它出現在映像檔範本中一樣。 
+{: #differences-between-a-standard-os-reload-and-a-reload-from-an-image-template}
+
+在標準「OS 重新載入」處理程序期間，您個別選取裝置的配置選項。當您從映像檔範本重新載入時，會確切地載入配置，就像它出現在映像檔範本中一樣。
 
 在映像檔範本重新載入中，您仍然可以先新增特性，再重新載入 OS。
 
@@ -31,14 +32,16 @@ subcollection: software
 {:shortdesc}
 
 ##重新載入 OS
+{: #reload-an-os}
+
 1. 從**裝置清單**中，按一下需要「OS 重新載入」的伺服器，以顯示「裝置詳細資料」頁面。
 2. 從**動作**功能表中，選取**從映像檔載入**。
 3. 選取要載入至裝置之映像檔範本的映像檔範本勾選框。
 
    **附註：**完成重新載入之前，會將映像檔範本複製至包含裝置的資料中心（如果它還不是位在相同的資料中心內）。如果必須將映像檔範本複製至資料中心，則在發生「OS 重新載入」之後未從該位置刪除範本時可能會收費。
-  
+
 4. 判定是否要新增任何特性。在重新載入處理程序期間，會將任何您選取的特性新增至裝置。
-   
+
    <table>
    <CAPTION>表 1. 選用特性</CAPTION>
    <THEAD>
@@ -68,7 +71,7 @@ subcollection: software
    </table>
 
 5. 配置選項作為相關。如需詳細資料，請參閱下列資訊。
-   
+
    <dl>
    <dt>後置安裝 Script</dt>
    <dd>新增現有或新的後置安裝 Script。</dd>
@@ -96,13 +99,14 @@ subcollection: software
 
 8. 按一下**確認 OS 重新載入**以確認動作，然後開始 OS 重新載入處理程序。按一下**取消**即可取消動作。
 
-
 ## 下一步為何？
+{: #what-s-next-reloading-an-os-using-an-image-template}
+
 在起始「OS 重新載入」處理程序之後，裝置會離線，並開始「OS 重新載入」處理程序。
 執行 OS 重新載入所需的時間會隨著裝置的現行配置及新配置而不同。
 在整個配置處理程序期間，會將「OS 重新載入」的最短時間顯示在每一個畫面上。
 所顯示的時間範圍是系統所進行的預估值，並基於好意所提供。如果重新載入費時超過 24 小時，請與「IBM 支援中心」聯絡。
 
-裝置重新上線時，會如「OS 重新載入」的新配置中所指定一樣地運作。所有先前儲存至裝置的資料都會遺失，但可以在重新載入之前備份裝置時進行還原。如果資料未備份，就無法進行擷取。 
+裝置重新上線時，會如「OS 重新載入」的新配置中所指定一樣地運作。所有先前儲存至裝置的資料都會遺失，但可以在重新載入之前備份裝置時進行還原。如果資料未備份，就無法進行擷取。
 
-您需要向 eVault 重新登錄裝置。<!--using the folliwng link: ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.-->
+您需要向 eVault 重新登錄裝置。

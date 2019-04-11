@@ -3,7 +3,10 @@ copyright:
   years: 1994, 2017
 lastupdated: "2017-09-26"
 
+keywords: IPv6
+
 subcollection: software
+
 ---
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -13,8 +16,9 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Ubuntu システムへの IPv6 の追加
+{: #adding-ipv6-to-ubuntu-systems}
 
-Ubuntu サーバーに IPv6 IP アドレスをバインドするには、この手順を使用します。 
+Ubuntu サーバーに IPv6 IP アドレスをバインドするには、この手順を使用します。
 
 1. **/etc/network/interfaces** ファイルを編集し、以下の行をファイルの末尾に追加します。
 
@@ -24,19 +28,21 @@ Ubuntu サーバーに IPv6 IP アドレスをバインドするには、この�
 	    address 2607:f0d0:2001:0000:0000:0000:0000:0010</br>
 	    netmask 64</br>
 		gateway 2607:f0d0:2001:0000:0000:0000:0000:0001</br>
-第 1 行は、システムが IPv6 を使用するインターフェースを定義します。</br>
-第 2 行は、IPv6 用のモジュールをロードします。<br/>
-第 3 行は、IPv6 アドレスを識別します。<br/>
-第 4 行は、IPv6 サブネットのネットマスクを定義します。<br/>
-第 5 行は、IPv6 サブネットのデフォルト・ゲートウェイを定義します。
+  第 1 行は、システムが IPv6 を使用するインターフェースを定義します。</br>
+  第 2 行は、IPv6 用のモジュールをロードします。<br/>
+  第 3 行は、IPv6 アドレスを識別します。<br/>
+  第 4 行は、IPv6 サブネットのネットマスクを定義します。<br/>
+  第 5 行は、IPv6 サブネットのデフォルト・ゲートウェイを定義します。
 
-2. ネットワーキングを再始動します。
+2. 次のコマンドを使用して、ネットワーキングを再始動します。
 
 	'/etc/init.d/networking restart'
 
 ## IPv6 接続の確認
+{: #verifying-ipv6-connectivity}
 
 ### IPv6 IP がバインド済みであることの確認
+{: #verify-that-ipv6-ip-is-bound}
 
     root@server:~# ip -6 address show eth1
     3: eth1: mtu 1500 qlen 1000
@@ -48,6 +54,7 @@ Ubuntu サーバーに IPv6 IP アドレスをバインドするには、この�
 
 
 ### IPv6 近隣キャッシュ
+{: #ipv6-neighbor-cache}
 
     root@server:~# ip -6 neighbor show dev eth1
     2607:f0d0:2001::1 lladdr 00:1b:0d:e6:57:c0 router REACHABLE
@@ -59,8 +66,8 @@ Ubuntu サーバーに IPv6 IP アドレスをバインドするには、この�
 - IP がパブリック・インターフェースに正しくバインドされていない。
 - ソフトウェア・ファイアウォールが IPv6 ICMP をブロックしている。
 
-
 ### IPv6 デフォルト・ゲートウェイ
+{: #ipv6-default-gateway}
 
     root@server:~# ip -6 route show dev eth1
     2607:f0d0:2001::/64  proto kernel  metric 256  mtu 1500 advmss 1440 hoplimit 4294967295

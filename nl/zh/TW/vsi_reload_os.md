@@ -6,9 +6,9 @@ copyright:
   years: 2017
 lastupdated: "2017-09-25"
 
+keywords: OS Reload, operating system
+
 subcollection: software
-
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,12 +19,16 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 #  重新載入 OS
+{: #reloading-the-os}
+
 您隨時可以在裝置上重新載入作業系統 (OS)，以將裝置還原至其原始工作單，或使用不同的軟體來重新配置裝置。OS 重新載入會移除裝置中的所有資料，並套用「類似新版」配置（如「OS 重新載入」設定的配置處理程序期間所指定）。因為 OS 重新載入會清除裝置中的所有資料，所以如果未在重新載入之前備份資料，則會將它永久地刪除，而無法予以擷取。
 {:shortdesc}
 
 **重要事項：**如果您要保留資料，請在執行 OS 重新載入之前備份所有資料。
 
 ## 重新載入 OS
+{: #reload-the-os}
+
 1. 從**裝置清單**中，按一下需要「OS 重新載入」的伺服器，以顯示「裝置詳細資料」頁面。
 2. 從**動作**功能表中，選取 **OS 重新載入**。
 3. 決定您是要重新載入現有配置，還是使用新的配置來重新載入裝置。
@@ -59,7 +63,7 @@ subcollection: software
    如果您要套用後置安裝 Script，請從「現有 Script」下拉清單中選取該 Script，或輸入新 Script 的完整 URL。否則，請繼續進行下一個步驟。
 
 5. 針對實體裝置，判斷是要新增還是移除已安裝的分割區，或是應該將它們保持不變。
-   
+
    <table>
    <CAPTION>表 2. 分割區動作選項</CAPTION>
    <THEAD>
@@ -91,7 +95,7 @@ subcollection: software
    </tr>
    </TBODY>
    </table>
-    
+
 6. 判斷是否將一個以上的「SSH 金鑰」套用至裝置。
 
 7. 針對您要在 OS 重新載入期間或之後套用至裝置的選項，選取適用的勾選框。
@@ -100,16 +104,18 @@ subcollection: software
 
 8. 按一下**重新載入上方配置**，以繼續進行檢閱。按一下**取消**，以取消裝置變更並結束畫面。
 
-9. 驗證「新建配置」區段中的所有詳細資料都正確。  
+9. 驗證「新配置」區段中的所有詳細資料都正確。  
 
 10. 按一下**確認 OS 重新載入**，以確認並起始「OS 重新載入」。按一下**取消**即可取消動作。
 
 ## 下一步為何？
+{: #what-s-next-reloading-the-os}
+
 在起始 OS 重新載入處理程序之後，裝置會離線，並開始「OS 重新載入」處理程序。
 執行 OS 重新載入所需的時間會隨著裝置的現行配置及新配置而不同。
 在整個配置處理程序期間，會將「OS 重新載入」的最短時間顯示在每一個畫面上。
 所顯示的時間範圍是系統所產生的預估值。如果重新載入費時超過 24 小時，請與「IBM 支援中心」聯絡。
 
 裝置重新上線時，會如「OS 重新載入」的新配置中所指定一樣地運作。所有先前儲存至裝置的資料都會遺失，但可以在 OS 重新載入之前建立裝置備份時進行還原。如果資料未備份，就無法進行擷取。
- 
-您需要向 eVault 重新登錄裝置。<!--using the folliwng link: ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.-->
+
+您需要向 eVault 重新登錄裝置。

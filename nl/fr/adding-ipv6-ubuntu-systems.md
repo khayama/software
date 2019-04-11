@@ -3,7 +3,10 @@ copyright:
   years: 1994, 2017
 lastupdated: "2017-09-26"
 
+keywords: IPv6
+
 subcollection: software
+
 ---
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -13,8 +16,9 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Ajout d'IPv6 à des systèmes Ubuntu
+{: #adding-ipv6-to-ubuntu-systems}
 
-Suivez cette procédure pour lier des adresses IP IPv6 à votre serveur Ubuntu. 
+Suivez cette procédure pour lier des adresses IP IPv6 à votre serveur Ubuntu.
 
 1. Ouvrez votre fichier **/etc/network/interfaces** et ajoutez les lignes suivantes à la fin du fichier.
 
@@ -24,19 +28,21 @@ Suivez cette procédure pour lier des adresses IP IPv6 à votre serveur Ubuntu.
 	    address 2607:f0d0:2001:0000:0000:0000:0000:0010</br>
 	    netmask 64</br>
 		gateway 2607:f0d0:2001:0000:0000:0000:0000:0001</br>
-  La première ligne définit l'interface sur laquelle le système utilise IPv6. </br>
+  La première ligne définit l'interface sur laquelle le système utilise IPv6.</br>
   La seconde ligne charge le module pour IPv6.<br/>
   La troisième ligne identifie l'adresse IPv6.<br/>
   La quatrième ligne définit le masque de réseau pour le sous-réseau IPv6.<br/>
   La cinquième ligne définit la passerelle par défaut pour le sous-réseau IPv6.
 
-2. Redémarrez l'opération réseau :
+2. Redémarrez la mise en réseau à l'aide de la commande suivante :
 
 	'/etc/init.d/networking restart'
 
 ## Vérification de la connectivité IPv6
+{: #verifying-ipv6-connectivity}
 
 ### Vérifiez que l'adresse IP IPv6 est liée
+{: #verify-that-ipv6-ip-is-bound}
 
     root@server:~# ip -6 address show eth1
     3: eth1: mtu 1500 qlen 1000
@@ -48,19 +54,20 @@ Suivez cette procédure pour lier des adresses IP IPv6 à votre serveur Ubuntu.
 
 
 ### Cache des voisins IPv6
+{: #ipv6-neighbor-cache}
 
     root@server:~# ip -6 neighbor show dev eth1
     2607:f0d0:2001::1 lladdr 00:1b:0d:e6:57:c0 router REACHABLE
     root@server:~#
 
-Si le cache des voisins comporte une entrée fe80, l'une des conditions suivantes peut être en cause :
+Si le cache des voisins comporte une entrée fe80, l'une des conditions suivantes est remplie :
 - La passerelle n'a pas été définie
 - L'adresse IP n'est pas liée à l'interface correcte
 - L'adresse IP n'est pas liée correctement à l'interface publique
 - Le pare-feu logiciel bloque le protocole IPv6 ICMP.
 
-
 ### Passerelle par défaut IPv6
+{: #ipv6-default-gateway}
 
     root@server:~# ip -6 route show dev eth1
     2607:f0d0:2001::/64  proto kernel  metric 256  mtu 1500 advmss 1440 hoplimit 4294967295

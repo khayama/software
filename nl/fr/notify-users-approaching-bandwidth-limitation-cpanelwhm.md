@@ -3,6 +3,10 @@ copyright:
   years: 1994, 2017
 lastupdated: "2017-09-24"
 
+keywords: Email, Cpanel, whm
+
+keywords: OS Reload, Operating System, cpsrvd email
+
 subcollection: software
 ---
 
@@ -13,8 +17,9 @@ subcollection: software
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Notification aux utilisateurs de l'approche d'une limitation de bande passante dans cPanel/WHM
+# Notification envoyée aux utilisateurs pour les avertir de l'approche d'une limitation de bande passante dans cPanel et WHM
+{: #notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm}
 
 1. Ouvrez cPanel.
-2. Sous **Server Setup**, cliquez sur **Tweak Settings**. 
-3. Dans la section **Mail=**, activez l'option **Email users when they have reached 80% of their bandwidth** (Envoyer un e-mail aux utilisateurs quand ils ont atteint 80 % de leur bande passante) et cliquez sur **Save**.
+2. Sous *Server Setup*, cliquez sur *Tweak Settings*.
+3. Dans la section **Mail=**, activez l'option *Email users when they reach reached 80% of their bandwidth* et cliquez sur **Save**.

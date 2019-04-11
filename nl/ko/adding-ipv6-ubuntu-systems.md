@@ -3,7 +3,10 @@ copyright:
   years: 1994, 2017
 lastupdated: "2017-09-26"
 
+keywords: IPv6
+
 subcollection: software
+
 ---
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -13,8 +16,9 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Ubuntu 시스템에 IPv6 추가
+{: #adding-ipv6-to-ubuntu-systems}
 
-이 프로시저를 사용하여 Ubuntu 서버에 IPv6 IP 주소를 바인드합니다. 
+이 프로시저를 사용하여 Ubuntu 서버에 IPv6 IP 주소를 바인드합니다.
 
 1. **/etc/network/interfaces** 파일을 편집하고 다음 행을 파일 끝에 추가하십시오.
 
@@ -30,13 +34,15 @@ subcollection: software
   네 번째 행은 IPv6 서브넷의 넷마스크를 정의합니다.<br/>
   다섯 번째 행은 IPv6 서브넷의 기본 게이트웨이를 정의합니다.
 
-2. 네트워킹 다시 시작:
+2. 다음 명령으로 네트워킹 다시 시작:
 
 	'/etc/init.d/networking restart'
 
 ## IPv6 연결 확인
+{: #verifying-ipv6-connectivity}
 
-### IPv6 IP가 바인드되어 있는지 확인합니다.
+### IPv6 IP가 바인드되어 있는지 확인
+{: #verify-that-ipv6-ip-is-bound}
 
     root@server:~# ip -6 address show eth1
     3: eth1: mtu 1500 qlen 1000
@@ -48,6 +54,7 @@ subcollection: software
 
 
 ### IPv6 인접 항목 캐시
+{: #ipv6-neighbor-cache}
 
     root@server:~# ip -6 neighbor show dev eth1
     2607:f0d0:2001::1 lladdr 00:1b:0d:e6:57:c0 router REACHABLE
@@ -59,8 +66,8 @@ subcollection: software
 - IP가 올바른 공용 인터페이스에 바인드되어 있지 않습니다.
 - 소프트웨어 방화벽은 IPv6 ICMP를 차단하고 있습니다.
 
-
 ### IPv6 기본 게이트웨이
+{: #ipv6-default-gateway}
 
     root@server:~# ip -6 route show dev eth1
     2607:f0d0:2001::/64  proto kernel  metric 256  mtu 1500 advmss 1440 hoplimit 4294967295

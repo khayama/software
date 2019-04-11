@@ -1,14 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-09-25"
 
+keywords: image template, OS Reload, operating system
+
 subcollection: software
-
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,25 +17,31 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Recarga de un sistema operativo utilizando una plantilla de imagen
+{: #reloading-an-os-using-an-image-template}
 
 ## Diferencias entre una recarga de sistema operativo estándar y una recarga de una plantilla de imagen
-Durante el proceso de recarga de SO estándar, se seleccionan individualmente las opciones de configuración para el dispositivo. Cuando se recarga desde una plantilla de imagen, la configuración se carga exactamente como aparece en la plantilla de imagen. 
+{: #differences-between-a-standard-os-reload-and-a-reload-from-an-image-template}
+
+Durante el proceso de recarga de SO estándar, se seleccionan individualmente las opciones de configuración para el dispositivo. Cuando se recarga desde una plantilla de imagen, la configuración se carga exactamente como aparece en la plantilla de imagen.
 
 En una plantilla de recarga de imagen, puede añadir características antes de recargar el sistema operativo.
 
-Utilice los pasos siguientes para cargar un sistema operativo desde una plantilla de imagen mediante la característica de Carga desde una imagen en el Portal de cliente.
+Utilice los pasos siguientes para cargar un sistema operativo desde una plantilla de imagen mediante la característica de Carga desde una imagen en el Portal de clientes.
 
-**Importante:** Si desea conservar sus datos, haga una copia de seguridad de todos los datos antes de llevar a cabo la recarga del sistema operativo. Una recarga del sistema operativo borra todos los datos del dispositivo; por lo tanto, si no se hace una copia de seguridad de los datos antes de la recarga, éstos se suprimirán de forma permanente y no se podrán recuperar.{:shortdesc}
+**Importante:** Si desea conservar sus datos, haga una copia de seguridad de todos los datos antes de llevar a cabo la recarga del sistema operativo. Una recarga del sistema operativo borra todos los datos del dispositivo; por lo tanto, si no se hace una copia de seguridad de los datos antes de la recarga, éstos se suprimirán de forma permanente y no se podrán recuperar.
+{:shortdesc}
 
 ##Recargar un sistema operativo
+{: #reload-an-os}
+
 1. De la **Lista de dispositivos**, pulse el servidor que necesita una recarga del sistema operativo para mostrar la página Detalles del dispositivo.
 2. En el menú **Acciones**, seleccione **Cargar desde imagen**.
 3. Seleccione el recuadro de selección correspondiente a la plantilla de imagen que debe cargarse en el dispositivo.
 
    **Nota:** Antes de completar la recarga, la plantilla de imagen se copia en el centro de datos que contiene el dispositivo, si no se encuentra ya en el mismo centro de datos. Si la plantilla de imagen debe copiarse en el centro de datos, es posible que se aplique un cargo si la plantilla no se suprime de la ubicación una vez haya finalizado la recarga del sistema operativo.
-  
+
 4. Determine si desea añadir características. Las características que seleccione se añadirán al dispositivo como parte del proceso de recarga.
-   
+
    <table>
    <CAPTION>Tabla 1. Características opcionales</CAPTION>
    <THEAD>
@@ -55,7 +59,7 @@ Utilice los pasos siguientes para cargar un sistema operativo desde una plantill
    <ol>
    <li>Pulse en <b>Cargar imagen seleccionada</b>.</li>
    <li>Revise la configuración de imagen y continúe o cancele el proceso.</li>
-   <li>Pulse en <b>Confirmar la recarga del sistema operativo</b> para confirmar la acción e iniciar el proceso de recarga. </li>
+   <li>Pulse en <b>Confirmar la recarga del sistema operativo</b> para confirmar la acción e iniciar el proceso de recarga.</li>
    </ol>
    </td>
    </tr>
@@ -67,7 +71,7 @@ Utilice los pasos siguientes para cargar un sistema operativo desde una plantill
    </table>
 
 5. Configure las opciones tal como sea relevante. Consulte la siguiente información para obtener más detalles.
-   
+
    <dl>
    <dt>Script de postinstalación</dt>
    <dd>Añade un script posterior a la instalación, existente o nuevo.</dd>
@@ -78,7 +82,7 @@ Utilice los pasos siguientes para cargar un sistema operativo desde una plantill
    <dt>Aplicar actualizaciones de BIOS a la placa del sistema</dt>
    <dd>Esta opción sólo está disponible para dispositivos físicos. </dd>
    <dt>Aplicar actualizaciones de firmware para todos los discos duros</dt>
-   <dd>Esta opción sólo está disponible para dispositivos físicos. </dd>
+   <dd>Esta opción sólo está disponible para dispositivos físicos.</dd>
    <dt>Añadir a agrupación de repuesto después de cargar el sistema operativo</dt>
    <dd>Esta opción está disponible sólo en dispositivos físicos y requiere aprobación interna antes de estar disponible en una cuenta.</dd>
    <dt>Borrar todos los discos duros</dt>
@@ -95,10 +99,14 @@ Utilice los pasos siguientes para cargar un sistema operativo desde una plantill
 
 8. Pulse en **Confirmar la recarga del sistema operativo** para confirmar la acción e iniciar el proceso de recarga. Pulse en **Cancelar** para cancelar la operación.
 
-
 ## ¿Qué es lo siguiente?
-Después de iniciar el proceso de recarga del sistema operativo, se pone el dispositivo fuera de línea y comienza el proceso de recarga. El tiempo que dura la operación de recarga del sistema operativo depende de las configuraciones actual y nueva del dispositivo. Durante el proceso de configuración, el tiempo mínimo para la recarga de SO se muestra en cada pantalla. El intervalo de tiempo que se muestra es una estimación generada por el sistema y se ofrece sólo como una cortesía. Si la recarga tarda más de 24 horas, póngase en contacto con el soporte de IBM.
+{: #what-s-next-reloading-an-os-using-an-image-template}
 
-Cuando el dispositivo vuelve a estar en línea, funciona como se había especificado en la nueva configuración para la recarga del sistema operativo. Todos los datos almacenados en el dispositivo se han perdido, pero pueden restaurarse si se había creado una copia del dispositivo antes de la recarga. Si no se hizo una copia de seguridad de los datos, éstos no pueden recuperarse. 
+Después de iniciar el proceso de recarga del sistema operativo, se pone el dispositivo fuera de línea y comienza el proceso de recarga.
+El tiempo que dura la operación de recarga del sistema operativo depende de las configuraciones actual y nueva del dispositivo.
+Durante el proceso de configuración, el tiempo mínimo para la recarga de SO se muestra en cada pantalla.
+El intervalo de tiempo que se muestra es una estimación generada por el sistema y se ofrece sólo como una cortesía. Si la recarga tarda más de 24 horas, póngase en contacto con el soporte de IBM.
 
-Deberá volver a registrar el dispositivo con eVault. <!--using the folliwng link: ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.-->
+Cuando el dispositivo vuelve a estar en línea, funciona como se había especificado en la nueva configuración para la recarga del sistema operativo. Todos los datos almacenados en el dispositivo se han perdido, pero pueden restaurarse si se había creado una copia del dispositivo antes de la recarga. Si no se hizo una copia de seguridad de los datos, éstos no pueden recuperarse.
+
+Deberá volver a registrar el dispositivo con eVault.

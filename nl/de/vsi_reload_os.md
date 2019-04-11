@@ -6,9 +6,9 @@ copyright:
   years: 2017
 lastupdated: "2017-09-25"
 
+keywords: OS Reload, operating system
+
 subcollection: software
-
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,12 +19,16 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 #  Betriebssystem erneut laden
+{: #reloading-the-os}
+
 Sie können das Betriebssystem auf einem Gerät jederzeit neu laden, um die ursprüngliche Funktionsfähigkeit eines Geräts wiederherzustellen oder ein Gerät mit einer anderen Software neu zu konfigurieren. Bei einem erneuten Laden des Betriebssystems werden alle Daten von dem Gerät entfernt und es wird eine 'neuwertige' Konfiguration gemäß den Angaben angewendet, die im Rahmen des Konfigurationsprozesses während des erneuten Ladens des Betriebssystems festgelegt wurden. Da bei diesem Vorgang alle Daten vom Gerät gelöscht werden, werden die Daten permanent entfernt und können nicht mehr abgerufen werden, falls die Daten vor dem erneuten Laden nicht gesichert wurden.
 {:shortdesc}
 
 **Wichtig:** Wenn Sie die Daten beibehalten möchten, sichern Sie vor dem erneuten Laden des Betriebssystems alle Daten.
 
 ## Betriebssystem erneut laden
+{: #reload-the-os}
+
 1. Klicken Sie in der **Geräteliste** auf den Server, für den das Betriebssystem erneut geladen werden muss, um die Seite mit den Gerätedetails anzuzeigen.
 2. Wählen Sie aus dem Menü **Aktionen** die Option zum erneuten Laden des Betriebssystems aus.
 3. Legen Sie fest, ob Sie die vorhandene Konfiguration oder aber das Gerät mit der neuen Konfiguration erneut laden möchten.
@@ -56,10 +60,10 @@ Sie können das Betriebssystem auf einem Gerät jederzeit neu laden, um die ursp
 
 4. Legen Sie fest, ob das Script für den Installationsabschluss nach der Bereitstellung des Geräts angewendet werden soll.
 
-   Wenn Sie ein Script für den Installationsabschluss anwenden möchten, wählen Sie das Script aus der Dropdown-Liste mit den vorhandenen Scripts aus oder geben Sie die qualifizierte URL für das neue Script ein. Andernfalls fahren Sie mit dem nächsten Schritt fort.
+   Wenn Sie ein Script für den Installationsabschluss anwenden möchten, wählen Sie das Script aus der Dropdown-Liste mit den vorhandenen Scripts aus oder geben Sie die qualifizierte URL für das neue Script ein.  Andernfalls fahren Sie mit dem nächsten Schritt fort.
 
 5. Legen Sie für physische Geräte fest, ob installierte Partitionen hinzugefügt oder entfernt oder ob sie nicht geändert werden sollen.
-   
+
    <table>
    <CAPTION>Tabelle 2. Optionen für Partitionsaktionen</CAPTION>
    <THEAD>
@@ -91,7 +95,7 @@ Sie können das Betriebssystem auf einem Gerät jederzeit neu laden, um die ursp
    </tr>
    </TBODY>
    </table>
-    
+
 6. Stellen Sie fest, ob Sie einen oder mehrere SSH-Schlüssel auf das Gerät anwenden sollen.
 
 7. Wählen Sie die entsprechenden Kontrollkästchen für die Optionen aus, die während oder nach dem erneuten Laden des Betriebssystems auf das Gerät angewendet werden sollen.
@@ -105,11 +109,13 @@ Sie können das Betriebssystem auf einem Gerät jederzeit neu laden, um die ursp
 10. Klicken Sie auf **Erneutes Laden des Betriebssystems bestätigen**, um das erneute Laden des Betriebssystems zu bestätigen und einzuleiten. Klicken Sie auf **Abbrechen**, um die Aktion abzubrechen.
 
 ## Weitere Schritte
+{: #what-s-next-reloading-the-os}
+
 Nachdem Sie das erneute Laden des Betriebssystems eingeleitet haben, geht das System offline und der Ladeprozess wird gestartet.
 Der Zeitraum für das erneute Laden unterscheidet sich je nach aktueller und neuer Konfiguration des Geräts.
 Während des Konfigurationsprozesses wird die Mindestzeit für den Ladevorgang auf dem Bildschirm angezeigt.
 Der angezeigte Zeitrahmen ist ein vom System generierter Schätzwert. Falls das erneute Laden länger als 24 Stunden dauern sollte, wenden Sie sich an IBM Support.
 
 Wenn das Gerät wieder online gestellt wird, funktioniert es entsprechend der neuen Konfiguration des Ladevorgangs. Alle zuvor auf dem Gerät gespeicherten Daten gehen verloren, sie können jedoch wiederhergestellt werden, falls Sie vor dem erneuten Laden des Betriebssystems eine Sicherung des Geräts durchgeführt haben. Falls keine Sicherung durchgeführt wurde, können die Daten nicht abgerufen werden.
- 
-Sie müssen das Gerät erneut mit eVault registrieren. <!--using the folliwng link: ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.-->
+
+Sie müssen das Gerät mit eVault erneut registrieren.

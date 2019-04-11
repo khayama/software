@@ -3,6 +3,8 @@ copyright:
   years: 1994, 2017
 lastupdated: "2017-09-10"
 
+keywords: Anti-Virus , host ID protection
+
 subcollection: software
 ---
 
@@ -13,6 +15,11 @@ subcollection: software
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# AV/S/Host IDS 主题描述
+# 防病毒、反间谍软件和主机标识信息
+{: #anti-virus-spyware-and-host-ids-information}
 
-IBM 针对每个设备上的 Anti-Virus/Spyware 和 Host IDS 保护提供了多个解决方案<!--- (http://www.softlayer.com/services/security /mcafeeAntiVirus) --->。Anti-Virus/Spyware 产品是由 McAfee 提供的，其中包含针对 Windows 系统的标准免费解决方案以及象征性按月收费的针对 Windows 系统的总体保护。我们还提供 Host IDS 服务，用于针对 Nessus 提供的已知零日漏洞攻击进行防护，该服务作为免费解决方案提供或者通过 McAfee 按月收费。Anti-Virus/Spyware 和 Host IDS 解决方案都必须添加到要保护的设备上，并使用 IBM 客户门户网站轻松进行管理。  
+IBM 针对每个设备上的防病毒和反间谍软件以及主机标识保护提供了多个解决方案。防病毒和反间谍软件产品由 McAfee 提供。您可以为 Windows 获得标准的免费解决方案。您还可以每月支付一定费用获得对 Windows 的全面保护。
+
+IBM 还提供主机标识服务，针对 Nessus 的已知和零天攻击进行防护。此解决方案免费提供。您还可以每月支付一定费用通过 McAfee 获得解决方案。
+
+您必须向设备添加防病毒、反间谍软件和主机标识解决方案，以保护设备。您可以在 IBM Customer Portal 中管理这些解决方案。

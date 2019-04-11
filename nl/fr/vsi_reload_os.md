@@ -6,9 +6,9 @@ copyright:
   years: 2017
 lastupdated: "2017-09-25"
 
+keywords: OS Reload, operating system
+
 subcollection: software
-
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -18,13 +18,17 @@ subcollection: software
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-#  Rechargement d'un système d'exploitation
+#  Rechargement du système d'exploitation
+{: #reloading-the-os}
+
 Vous pouvez recharger le système d'exploitation sur un terminal à tout moment pour restaurer un terminal à son état de fonctionnement d'origine ou pour reconfigurer un terminal avec un autre logiciel. Un rechargement du système d'exploitation supprime toutes les données du terminal et applique la configuration d'origine, comme cela est spécifié lors de la configuration du rechargement du système d'exploitation. Vu que le rechargement du système d'exploitation efface toutes les données du terminal, si celles-ci n'ont pas été sauvegardées avant le rechargement, elles sont supprimées définitivement et ne peuvent pas être récupérées.
 {:shortdesc}
 
-**Important :** si vous désirez conserver vos données, effectuez une sauvegarde de toutes les données avant d'effectuer un rechargement du système d'exploitation. 
+**Important :** si vous désirez conserver vos données, effectuez une sauvegarde de toutes les données avant d'effectuer un rechargement du système d'exploitation.
 
 ## Rechargement du système d'exploitation
+{: #reload-the-os}
+
 1. Dans **Liste des unités**, cliquez sur le serveur nécessitant un rechargement de son système d'exploitation afin d'afficher la page Détails de l'unité.
 2. Dans le menu **Actions**, sélectionnez **Rechargement du système d'exploitation**.
 3. Déterminez si vous désirez recharger la configuration existante ou recharger le terminal avec une nouvelle configuration.
@@ -56,10 +60,10 @@ Vous pouvez recharger le système d'exploitation sur un terminal à tout moment 
 
 4. Déterminez si un script de post-installation doit être appliqué après que le terminal a été provisionné.
 
-   Si vous désirez appliquer un script de post-installation, sélectionnez-le dans la liste déroulante Script existant ou entrez l'URL qualifiée du nouveau script. Sinon, passez à l'étape suivante.
+   Si vous désirez appliquer un script de post-installation, sélectionnez-le dans la liste déroulante Script existant ou entrez l'URL qualifiée du nouveau script.  Sinon, passez à l'étape suivante.
 
 5. Pour les unités physiques, déterminez s'il convient d'ajouter ou de supprimer des partitions installées ou de les conserver telles quelles.
-   
+
    <table>
    <CAPTION>Tableau 2. Options d'action de partition</CAPTION>
    <THEAD>
@@ -91,7 +95,7 @@ Vous pouvez recharger le système d'exploitation sur un terminal à tout moment 
    </tr>
    </TBODY>
    </table>
-    
+
 6. Déterminez le nombre de clés SSH à appliquer au terminal.
 
 7. Cochez les cases appropriées pour les options que vous désirez appliquer au terminal pendant ou après le rechargement du système d'exploitation.
@@ -105,11 +109,13 @@ Vous pouvez recharger le système d'exploitation sur un terminal à tout moment 
 10. Cliquez sur **Confirmer le rechargement du système d'exploitation** pour confirmer l'opération et déclencher le rechargement du système d'exploitation. Cliquez sur **Annuler** pour annuler l'action.
 
 ## Etape suivante
+{: #what-s-next-reloading-the-os}
+
 Une fois que vous lancez le processus de rechargement du système d'exploitation, le terminal est mis hors ligne et le processus de rechargement du système d'exploitation débute.
 La durée du rechargement du système d'exploitation varie en fonction de la configuration en cours et de la nouvelle configuration du terminal.
 Pendant la configuration, la durée minimale du rechargement du système d'exploitation s'affiche sur chaque écran.
 La durée affichée constitue une estimation générée par le système. Si le rechargement prend plus de 24 heures, contactez le support IBM.
 
 Lorsque le terminal revient en ligne, il fonctionne comme spécifié dans la nouvelle configuration pour le rechargement du système d'exploitation. Toutes les données qui avaient été enregistrées sur le terminal sont perdues, mais peuvent être restaurées si vous avez effectué une sauvegarde du terminal avant le rechargement du système d'exploitation. Dans le cas contraire, les données ne peuvent pas être récupérées.
- 
-Vous devrez enregistrer à nouveau votre terminal auprès d'eVault. <!--using the folliwng link: ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.-->
+
+Vous devrez enregistrer à nouveau votre terminal auprès d'eVault. 

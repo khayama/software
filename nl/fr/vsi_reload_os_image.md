@@ -1,14 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-09-25"
 
+keywords: image template, OS Reload, operating system
+
 subcollection: software
-
-
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,9 +17,12 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Rechargement d'un système d'exploitation à l'aide d'un modèle d'image
+{: #reloading-an-os-using-an-image-template}
 
 ## Différences entre un rechargement standard de système d'exploitation et un rechargement depuis un modèle d'image
-Au cours du processus de rechargement standard de système d'exploitation, vous devez sélectionner individuellement les options de configuration. Lorsque vous effectuez le rechargement depuis un modèle d'image, la configuration est chargée exactement comme elle apparaît dans le modèle d'image. 
+{: #differences-between-a-standard-os-reload-and-a-reload-from-an-image-template}
+
+Au cours du processus de rechargement standard de système d'exploitation, vous devez sélectionner individuellement les options de configuration. Lorsque vous effectuez le rechargement depuis un modèle d'image, la configuration est chargée exactement comme elle apparaît dans le modèle d'image.
 
 Dans un rechargement depuis un modèle d'image, vous pouvez néanmoins ajouter des fonctionnalités avant de recharger le système d'exploitation.
 
@@ -31,14 +32,16 @@ Procédez comme suit pour recharger un système d'exploitation depuis un modèle
 {:shortdesc}
 
 ##Rechargement d'un système d'exploitation
+{: #reload-an-os}
+
 1. Dans **Liste des unités**, cliquez sur le serveur nécessitant un rechargement de son système d'exploitation afin d'afficher la page Détails de l'unité.
 2. Dans le menu **Actions**, sélectionnez **Charger à partir d'une image**.
 3. Cochez la case du modèle d'image à charger sur le terminal.
 
    **Remarque :** avant d'effectuer le rechargement, le modèle d'image est copié sur le centre de données qui contient le terminal, s'il n'y était pas déjà. Si le modèle d'image doit être copié sur le centre de données, des frais peuvent vous être facturés si le modèle d'image n'est pas supprimé de cet emplacement après le rechargement du système d'exploitation.
-  
+
 4. Déterminez si vous désirez ajouter des fonctions. Les fonctions que vous sélectionnez sont ajoutées au terminal dans le cadre du processus de rechargement.
-   
+
    <table>
    <CAPTION>Tableau 1. Fonctions facultatives</CAPTION>
    <THEAD>
@@ -68,7 +71,7 @@ Procédez comme suit pour recharger un système d'exploitation depuis un modèle
    </table>
 
 5. Configurez les options, le cas échéant. Pour plus de détails, consultez les informations suivantes.
-   
+
    <dl>
    <dt>Script de Post-Installation</dt>
    <dd>Ajoute un script de post-installation existant ou nouveau.</dd>
@@ -96,13 +99,14 @@ Procédez comme suit pour recharger un système d'exploitation depuis un modèle
 
 8. Cliquez sur **Confirmer le rechargement du système d'exploitation** pour confirmer l'action et commencer le processus de rechargement du système d'exploitation. Cliquez sur **Annuler** pour annuler l'action.
 
-
 ## Etape suivante
+{: #what-s-next-reloading-an-os-using-an-image-template}
+
 Une fois que vous lancez le processus de rechargement du système d'exploitation, le terminal est mis hors ligne et le processus de rechargement du système d'exploitation débute.
 La durée du rechargement du système d'exploitation varie en fonction de la configuration en cours et de la nouvelle configuration du terminal.
 Pendant la configuration, la durée minimale du rechargement du système d'exploitation s'affiche sur chaque écran.
 La durée affichée constitue une estimation par le système fournie à titre indicatif. Si le rechargement prend plus de 24 heures, contactez le support IBM.
 
-Lorsque le terminal revient en ligne, il fonctionne comme spécifié dans la nouvelle configuration pour le rechargement du système d'exploitation. Toutes les données qui avaient été enregistrées sur le terminal sont perdues, mais peuvent être restaurées si vous avez effectué une sauvegarde du terminal avant son rechargement. Dans le cas contraire, les données ne peuvent pas être récupérées. 
+Lorsque le terminal revient en ligne, il fonctionne comme spécifié dans la nouvelle configuration pour le rechargement du système d'exploitation. Toutes les données qui avaient été enregistrées sur le terminal sont perdues, mais peuvent être restaurées si vous avez effectué une sauvegarde du terminal avant son rechargement. Dans le cas contraire, les données ne peuvent pas être récupérées.
 
-Vous devrez enregistrer à nouveau votre terminal auprès d'eVault. <!--using the folliwng link: ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.-->
+Vous devrez enregistrer à nouveau votre terminal auprès d'eVault. 

@@ -3,6 +3,8 @@ copyright:
   years: 1994, 2017
 lastupdated: "2017-09-10"
 
+keywords: Anti-Virus , host ID protection
+
 subcollection: software
 ---
 
@@ -13,6 +15,11 @@ subcollection: software
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# AV/S/主機 IDS 主題說明
+# 病毒與間諜軟體防範和主機 ID 資訊
+{: #anti-virus-spyware-and-host-ids-information}
 
-IBM 針對每個裝置上的「防毒/間諜軟體」及「主機 IDS」保護<!--- (http://www.softlayer.com/services/security /mcafeeAntiVirus) --->，提供多種解決方案。「防毒/間諜軟體」產品是由 McAfee 所提供，並同時包括 Windows 系統的標準及免費解決方案，以及需要支付額定每月費用之 Windows 系統的「總保護」。我們也提供 Nessus 的「主機 IDS」服務作為防範已知及零時差攻擊的免費解決方案，或是透過 McAfee，但需要支付每月費用。「防毒/間諜軟體」及「主機 IDS」解決方案必須新增至您的裝置才能保護裝置，以及使用「IBM 客戶入口網站」輕鬆地進行管理。  
+IBM 針對病毒與間諜軟體防範以及主機 ID 保護在每個裝置上提供多種解決方案。病毒與間諜軟體防範產品由 McAfee 提供。您可以取得 Windows 適用的標準且免費的解決方案。您也可以取得按月付費的 Total Protection for Windows。
+
+IBM 還提供主機 ID 服務，以防範來自 Nessus 的已知和零時差攻擊。本解決方案完全免費。您也可以透過 McAfee 取得按月付費的解決方案。
+
+您必須對裝置新增病毒與間諜軟體防範以及主機 ID 的解決方案，您的裝置才會受到保護。您可以在「IBM 客戶入口網站」中管理這些解決方案。

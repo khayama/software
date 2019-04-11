@@ -3,6 +3,10 @@ copyright:
   years: 1994, 2017
 lastupdated: "2017-09-24"
 
+keywords: Email, Cpanel, whm
+
+keywords: OS Reload, Operating System, cpsrvd email
+
 subcollection: software
 ---
 
@@ -13,8 +17,9 @@ subcollection: software
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Notificando os usuários sobre uma limitação iminente de largura da banda no cPanel/WHM
+# Notificando usuários de uma limitação de largura de banda iminente em cPanel e WHM
+{: #notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm}
 
 1. Abra o cPanel.
-2. Em **Configuração do servidor**, clique em **Ajustar configurações**. 
-3. Na seção **Correio=**, ative **Enviar e-mail para os usuários quando eles atingirem 80% de sua largura de banda** e clique em **Salvar**.
+2. Em *Configuração do servidor*, clique em *Ajustar configurações*.
+3. Na seção **Mail=**, ative *Enviar e-mail aos usuários quando atingirem 80% de sua largura de banda* e clique em **Salvar**.

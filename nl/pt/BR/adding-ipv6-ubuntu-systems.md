@@ -3,7 +3,10 @@ copyright:
   years: 1994, 2017
 lastupdated: "2017-09-26"
 
+keywords: IPv6
+
 subcollection: software
+
 ---
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -13,30 +16,33 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 
 # Incluindo IPv6 em sistemas Ubuntu
+{: #adding-ipv6-to-ubuntu-systems}
 
-Use este procedimento para ligar endereços IP IPv6 ao servidor Ubuntu. 
+Use este procedimento para ligar endereços IP IPv6 ao servidor Ubuntu.
 
 1. Edite o arquivo **/etc/network/interfaces** e inclua as linhas a seguir no final do arquivo.
 
-		#Configuração de IPV6
+		#IPV6 configuration
 	    iface eth1 inet6 static
 	    pre-up modprobe ipv6 </br>
 	    address 2607:f0d0:2001:0000:0000:0000:0000:0010</br>
 	    netmask 64</br>
 		gateway 2607:f0d0:2001:0000:0000:0000:0000:0001</br>
-  A primeira linha define a interface na qual o sistema usa IPv6. </br>
+  A primeira linha define a interface na qual o sistema usa IPv6.</br>
   A segunda linha carrega o módulo para IPv6.<br/>
   A terceira linha identifica o endereço IPv6.<br/>
   A quarta linha define a máscara de rede para a sub-rede IPv6.<br/>
   A quinta linha define o gateway padrão para a sub-rede IPv6.
 
-2. Reinicie a rede:
+2. Reinicie a rede com o comando a seguir:
 
 	'/etc/init.d/networking restart'
 
 ## Verificando a conectividade de IPv6
+{: #verifying-ipv6-connectivity}
 
 ### Verifique se o IP IPv6 está ligado
+{: #verify-that-ipv6-ip-is-bound}
 
     root@server:~# ip -6 address show eth1
     3: eth1: mtu 1500 qlen 1000
@@ -48,19 +54,20 @@ Use este procedimento para ligar endereços IP IPv6 ao servidor Ubuntu.
 
 
 ### Cache vizinho IPv6
+{: #ipv6-neighbor-cache}
 
     root@server:~# ip -6 neighbor show dev eth1
     2607:f0d0:2001::1 lladdr 00:1b:0d:e6:57:c0 router REACHABLE
     root@server:~#
 
-Se o cache vizinho mostrar uma entrada fe80, um das condições a seguir poderão se aplicar:
+Se o cache do vizinho mostrar uma entrada de fe80, uma das condições a seguir poderá se aplicar:
 - O gateway não está configurado
 - O IP não está ligado à interface correta
 - O IP não está ligado corretamente à interface pública
 - O firewall de software está bloqueando o ICMP de IPv6.
 
-
 ### Gateway padrão IPv6
+{: #ipv6-default-gateway}
 
     root@server:~# ip -6 route show dev eth1
     2607:f0d0:2001::/64  proto kernel  metric 256  mtu 1500 advmss 1440 hoplimit 4294967295

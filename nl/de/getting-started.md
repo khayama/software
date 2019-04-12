@@ -35,7 +35,7 @@ In Tabelle 1 finden Sie die Schritte, die zur Bestellung der Software notwendig 
    </td>
    <tr>
    <td>2. Melden Sie sich bei IBM Cloud an.</td>
-   <td>Der Abschnitt <a href="https://cloud.ibm.com/docs/admin/adminpublic.html#signing-up-for-ibm-cloud">IBM Cloud-Anmeldung</a> enthält die Schritte, die Sie ausführen müssen, um Ihr IBM Cloud-Konto einzurichten.</td>
+   <td>Der Abschnitt <a href="https://cloud.ibm.com/docs/account?topic=account-signup#signup">IBM Cloud-Anmeldung</a> enthält die Schritte, die Sie ausführen müssen, um Ihr IBM Cloud-Konto einzurichten.</td>
  <tr>
    <td>3. Wählen Sie die von Ihnen benötigte Software in der Liste der derzeit unterstützten Software aus.</td>
    <td>[Cloud server software ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud-computing/bluemix/node/153){: new_window}</td>

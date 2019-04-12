@@ -36,7 +36,7 @@ ambiente.
    </td>
    <tr>
    <td>2. Inscrever-se para o IBM Cloud</td>
-   <td><a href="https://cloud.ibm.com/docs/admin/adminpublic.html#signing-up-for-ibm-cloud">Assinando o IBM Cloud</a> tem as
+   <td><a href="https://cloud.ibm.com/docs/account?topic=account-signup#signup">Assinando o IBM Cloud</a> tem as
 etapas sobre como configurar a conta do IBM Cloud.</td>
  <tr>
    <td>3. Selecione o software necessário na lista de softwares atualmente suportados.</td>

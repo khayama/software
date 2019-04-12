@@ -35,7 +35,7 @@ Le tableau 1 présente les étapes vous permettant de commander un logiciel.
    </td>
    <tr>
    <td>2. Inscrivez-vous à IBM Cloud.</td>
-   <td>La rubrique <a href="https://cloud.ibm.com/docs/admin/adminpublic.html#signing-up-for-ibm-cloud">Inscription à IBM Cloud</a> fournit la procédure de configuration de votre compte IBM Cloud.</td>
+   <td>La rubrique <a href="https://cloud.ibm.com/docs/account?topic=account-signup#signup">Inscription à IBM Cloud</a> fournit la procédure de configuration de votre compte IBM Cloud.</td>
  <tr>
    <td>3. Sélectionnez le logiciel dont vous avez besoin dans la liste des logiciels actuellement pris en charge. </td>
    <td>[Cloud server software ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud-computing/bluemix/node/153){: new_window}</td>

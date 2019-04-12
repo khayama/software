@@ -35,7 +35,7 @@ La Tabella 1 contiene i passi per aiutarti a ordinare del software.
    </td>
    <tr>
    <td>2. Registrati per IBM Cloud</td>
-   <td><a href="https://cloud.ibm.com/docs/admin/adminpublic.html#signing-up-for-ibm-cloud">Signing up for IBM Cloud</a> contiene i passi su come configurare il tuo account IBM Cloud.</td>
+   <td><a href="https://cloud.ibm.com/docs/account?topic=account-signup#signup">Signing up for IBM Cloud</a> contiene i passi su come configurare il tuo account IBM Cloud.</td>
  <tr>
    <td>3. Seleziona il software di cui hai bisogno dall'elenco di software correntemente supportato.</td>
    <td>[Cloud server software ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud-computing/bluemix/node/153){: new_window}</td>

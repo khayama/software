@@ -35,7 +35,7 @@ subcollection: software
    </td>
    <tr>
    <td>2. IBM Cloud に登録する</td>
-   <td><a href="https://cloud.ibm.com/docs/admin/adminpublic.html#signing-up-for-ibm-cloud">IBM Cloud への登録</a>には、IBM Cloud アカウントのセットアップ手順が記載されています。</td>
+   <td><a href="https://cloud.ibm.com/docs/account?topic=account-signup#signup">IBM Cloud への登録</a>には、IBM Cloud アカウントのセットアップ手順が記載されています。</td>
  <tr>
    <td>3. 必要なソフトウェアを、現在サポートされているソフトウェアのリストから選択する。</td>
    <td>[Cloud server software ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://www.ibm.com/cloud-computing/bluemix/node/153){: new_window}</td>

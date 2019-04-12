@@ -35,7 +35,7 @@ La tabla 1 muestra los pasos a seguir para solicitar software.
    </td>
    <tr>
    <td>2. Regístrese en IBM Cloud</td>
-   <td><a href="https://cloud.ibm.com/docs/admin/adminpublic.html#signing-up-for-ibm-cloud">Registro de IBM Cloud</a> muestra los pasos a seguir para configurar una cuenta de IBM Cloud.</td>
+   <td><a href="https://cloud.ibm.com/docs/account?topic=account-signup#signup">Registro de IBM Cloud</a> muestra los pasos a seguir para configurar una cuenta de IBM Cloud.</td>
  <tr>
    <td>3. Seleccione el software que necesita en la lista de software soportado actualmente.</td>
    <td>[Software de servidor de nube ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud-computing/bluemix/node/153){: new_window}</td>

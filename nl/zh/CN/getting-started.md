@@ -36,7 +36,7 @@ subcollection: software
    </td>
    <tr>
    <td>2. 注册 IBM Cloud</td>
-   <td><a href="https://cloud.ibm.com/docs/admin/adminpublic.html#signing-up-for-ibm-cloud">注册 IBM Cloud</a> 包含有关如何设置 IBM Cloud 帐户的步骤。</td>
+   <td><a href="https://cloud.ibm.com/docs/account?topic=account-signup#signup">注册 IBM Cloud</a> 包含有关如何设置 IBM Cloud 帐户的步骤。</td>
  <tr>
    <td> 3. 从当前支持的软件的列表中选择您需要的软件。</td>
    <td>[云服务器软件 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud-computing/bluemix/node/153){: new_window}</td>

@@ -35,7 +35,7 @@ Table 1 contains steps to help you order software.
    </td>
    <tr>
    <td>2. Sign up for IBM Cloud</td>
-   <td><a href="https://cloud.ibm.com/docs/admin/adminpublic.html#signing-up-for-ibm-cloud">Signing up for IBM Cloud</a> has the steps on how to set up your IBM Cloud account.</td>
+   <td><a href="https://cloud.ibm.com/docs/account?topic=account-signup#signup">Signing up for IBM Cloud</a> has the steps on how to set up your IBM Cloud account.</td>
  <tr>
    <td>3. Select the software that you need from the list of currently supported software.</td>
    <td>[Cloud server software ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/node/153){: new_window}</td>

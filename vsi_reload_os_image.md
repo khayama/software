@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-09-25"
+  years: 2019
+lastupdated: "2019-05-02"
 
 keywords: image template, OS Reload, operating system
 
@@ -109,4 +109,4 @@ The time frame timeframe that is displayed is an estimate made by the system and
 
 When the device returns online, it functions as specified in the new configuration for the OS Reload. All data that is previously saved to the device is lost, but can be restored if a backup was made of the device before its reload. If data was not backed up, it cannot be retrieved.
 
-You will need to re-register your device with eVault.
+You will need to re-register your device with IBM Cloud Backup.

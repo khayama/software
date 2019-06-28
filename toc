@@ -12,6 +12,7 @@ IBM Cloud Software
 	{: .navgroup-end}
 
 	{: .navgroup id="howto"}
+	/vsi/virtual-servers-navigating-devices
 	vsi_reload_os.md
 	vsi_reload_os_image.md
 	adding-ipv6-ubuntu-systems.md

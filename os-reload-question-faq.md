@@ -27,21 +27,25 @@ You can change your OS and the software that you installed by reloading an OS <!
 
 ## Do you provide complimentary OS Reloads?
 {: #do-you-provide-complimentary-os-reloads-}
+{: faq}
 
 Automated OS reloads are free, including customized OS reloads such as changing operating systems, addition or removal of control panels, partition editing, and other options. Open the Customer Portal for more information.
 
 ## How can I track the status of the OS reload?
 {: #how-can-i-track-the-status-of-the-os-reload-}
+{: faq}
 
 Under Hardware in the Customer Portal, there is a Notes section for each of your servers. The Notes section includes links to information about the current step of the reload and the estimated time to finish that portion of the reload.
 
 ## Can an OS reload erase secondary disks?
 {: #can-an-os-reload-erase-secondary-disks-}
+{: faq}
 
 An OS reload only formats the primary disk on the system. All other disks are left alone. This works the same way when reloading from an image template. If the template contains more than one disks, only the primary disk is formatted. No changes are made to the other disks.
 
 ## Why did my cpsrvd email fail?
 {: #why-did-my-cpsrvd-email-fail-}
+{: faq}
 
 In most cases, when you get an email that states **cpsrvd failed**, it is sent immediately after a restart. This error occurs when chkservd attempts to validate the cpsrvd process. The validation fails because the process has not started.
 

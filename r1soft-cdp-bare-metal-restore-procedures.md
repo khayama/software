@@ -19,10 +19,16 @@ Use this procedure to complete a restore to public or private {{site.data.keywor
 
 Do not use this process if the restoration of a subset of files is the objective. To restore only the files, see [R1Soft Wiki](http://wiki.r1soft.com/display/CDP/Restoring+Files){:new_window}.
 
+## Before you begin
+* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/infrastructure/software?topic=virtual-servers-navigating-devices).
+* Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
+
+For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/bare-metal?topic=virtual-servers-managing-device-access).
+
 ## Restoring your virtual device
 {: #restoring-your-virtual-device}
 
-1. Click into the device you want you restore in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+1. From the **Device List**, click into the device you want you restore.
 2. Click the **Actions** menu and choose **Boot from image** you get a list of private images.
 3. Choose **Public Images** from the menu.
 4. Choose the appropriate R1Soft agent boot image for your version of R1Soft server (serverbackup-centos-bootcd-agent.iso) and click **Boot From This Image** link on the right.

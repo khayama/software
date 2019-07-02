@@ -5,7 +5,7 @@ IBM Cloud Software
 
 	{: .navgroup id="learn"}
 	getting-started.md
-	about.md
+	[About software](https://www.ibm.com/cloud/server-software)
 	microsoft-windows-update-instructions.md
 	redhat-update-instructions.md
 	avshost-ids-topic-description.md

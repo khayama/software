@@ -17,7 +17,7 @@ subcollection: software
 {:table: .aria-labeledby="caption"}
 {:faq: data-hd-content-type='faq'}
 
-# FAQs
+# FAQs: Software
 {: #faqs}
 
 ## Can the Operating System (OS) be changed on the device?

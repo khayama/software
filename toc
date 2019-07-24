@@ -15,6 +15,8 @@ IBM Cloud Software
 	/vsi/virtual-servers-navigating-devices
 	vsi_reload_os.md
 	vsi_reload_os_image.md
+	cpcompmanlic.md
+	software-passwords.md
 	adding-ipv6-ubuntu-systems.md
 	install-clamav.md
 	notify-users-approaching-bandwidth-limitation-cpanelwhm.md

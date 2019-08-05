@@ -94,7 +94,7 @@ For more information about permissions, see [Classic infrastructure permissions]
    <dt>Erase all hard disks</dt>
    <dd> This option is available only on physical devices and requires special user permissions set by the Account's administrator.</dd>
    <dt>OS Reload with Disk Preservation</dt>
-   <dd>Retains all data on the current primary disk during the OS Reload process. Disk preservation converts the primary drive to a Portable Storage device. This option is available only on virtual devices and incurs charges based on the billing patterns (hourly or monthly) of the device. Charges might be canceled by canceling the Portable Storage device any time after it was created.</dd>
+   <dd>This option puts your current primary disk into a secondary slot (retaining all data), and creates a new primary disk. The OS is installed on the new primary disk. Retains all data on the current primary disk during the OS Reload process. Retains all data on the current primary disk during the OS Reload process. Disk preservation converts the primary drive to a Portable Storage device. This option is available only on virtual devices and incurs charges based on the billing patterns (hourly or monthly) of the device. Charges might be canceled by canceling the Portable Storage device any time after it was created.</dd>
    </dl>
 
 6. Click **Load Selected Image**.

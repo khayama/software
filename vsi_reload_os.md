@@ -107,6 +107,24 @@ For more information about permissions, see [Classic infrastructure permissions]
 7. Select the applicable checkboxes for the options that you want to apply to the device during or after the OS reload.
 
    **Note:** Options vary based on device. Not all options are available for every device.
+      <dl>
+   <dt>Post Install script</dt>
+   <dd>Adds an existing or new post-installation script.</dd>
+   <dt>SSH key</dt>
+   <dd>Adds an SSH key to the device upon the reload action. </dd>
+   <dt>Reset IPMI Password</dt>
+   <dd> This option is only available for physical devices. </dd>
+   <dt>Apply system board BIOS upgrades</dt>
+   <dd>This option is only available for physical devices. </dd>
+   <dt>Apply firmware updates for all hard disks</dt>
+   <dd>This option is only available for physical devices.</dd>
+   <dt>Add to Spare Pool after OS Reload</dt>
+   <dd>This option is available only on physical devices and requires internal approval before being available on an account.</dd>
+   <dt>Erase all hard disks</dt>
+   <dd> This option is available only on physical devices and requires special user permissions set by the Account's administrator.</dd>
+   <dt>OS Reload with Disk Preservation</dt>
+   <dd>This option puts your current primary disk into a secondary slot (retaining all data), and creates a new primary disk. The OS is installed on the new primary disk. Retains all data on the current primary disk during the OS Reload process. Retains all data on the current primary disk during the OS Reload process. Disk preservation converts the primary drive to a Portable Storage device. This option is available only on virtual devices and incurs charges based on the billing patterns (hourly or monthly) of the device. Charges might be canceled by canceling the Portable Storage device any time after it was created.</dd>
+   </dl>
 
 8. Click **Reload Above Configuration** to proceed to review. Click **Cancel** to cancel the changes to the device and exit the screen.
 

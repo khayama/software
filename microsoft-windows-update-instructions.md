@@ -20,6 +20,7 @@ subcollection: software
 {: #microsoft-windows-update-information}
 
 IBM provides OS and software update services for Microsoft Windows Server environments free of charge.
+{:shortdesc}
 
 All update services at {{site.data.keyword.Bluemix_notm}} share the following features:
 * Update traffic is routed from your server (over your private VLAN) to the private service network

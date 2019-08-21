@@ -16,6 +16,7 @@ subcollection: software
 # Restoring a Server with R1Soft Tivoli Continuous Data Protection for Files
 
 Use this process to complete a [bare metal restore](http://wiki.r1soft.com/display/CDP/Bare-Metal+Restore){:new_window} to an {{site.data.keyword.BluSoftlayer_full}} public or private virtual server (VSI) if a server failure that causes data or OS loss.
+{:shortdesc}
 
 All file system blocks that are backed up are restored, including the OS and any files that weren't excluded from backups. Do not follow this process if you want to restore of a subset of files. To restore only the files, see [http://wiki.r1soft.com/display/CDP/Restoring+Files](http://wiki.r1soft.com/display/CDP/Restoring+Files){:new_window}.
 

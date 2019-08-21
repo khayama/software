@@ -17,6 +17,7 @@ subcollection: software
 {: #ordering-r1soft}
 
 You have two options for ordering R1Soft for your bare metal server. You can order it as part of your initial provisioning of a bare metal server, or you can add it to an existing bare metal server.
+{:shortdesc}
 
 ## Provisioning R1Soft with a new bare metal server
 {: #provisioning-r1soft-with-a-new-bare-metal-server}

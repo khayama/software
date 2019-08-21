@@ -18,6 +18,7 @@ subcollection: software
 {: #installing-clamav}
 
 Use this procedure to install ClamAV.
+{:shortdesc}
 
 1. Log in to WHM on `https://x.x.x.x:2087` (replace x.x.x.x with your server IP)
 2. Click the cPanel icon on the far right side of the screen.

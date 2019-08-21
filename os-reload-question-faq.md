@@ -24,6 +24,7 @@ subcollection: software
 {: #can-the-operating-system-os-be-changed-on-the-device-}
 
 You can change your OS and the software that you installed by reloading an OS <!--[OS Reload](perform-os-reload-device.html){:new_window}-->. After you select OS Reload on the device, the system displays a link to a page that enables you to update the software on your system. You can update the OS, Control Panel, Antivirus packages, and database software from this page.
+{:shortdesc}
 
 ## Do you provide complimentary OS Reloads?
 {: #do-you-provide-complimentary-os-reloads-}

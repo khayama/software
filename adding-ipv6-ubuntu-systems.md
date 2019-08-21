@@ -19,6 +19,7 @@ subcollection: software
 {: #adding-ipv6-to-ubuntu-systems}
 
 Use this procedure to bind IPv6 IP addresses to your Ubuntu server.
+{:shortdesc}
 
 1. Edit your **/etc/network/interfaces** file and add the following lines to the end of the file.
 

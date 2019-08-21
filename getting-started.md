@@ -16,6 +16,7 @@ subcollection: software
 {: #getting-started}
 
 You have two options for ordering software for your server. You can order it as part of your initial provisioning of a server, or you can add it to an existing server by using an OS reload.
+{:shortdesc}
 
 Table 1 contains steps to help you order software.
 <table>

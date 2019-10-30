@@ -51,3 +51,9 @@ An OS reload only formats the primary disk on the system. All other disks are le
 In most cases, when you get an email that states **cpsrvd failed**, it is sent immediately after a restart. This error occurs when chkservd attempts to validate the cpsrvd process. The validation fails because the process has not started.
 
 If you receive an email from the chkservd service, stating that cpsrvd failed, you can ignore the message in most cases. However, if you receive 5 or more of these messages in a row or if you receive more than 4 in a day that follows restarts, open a support ticket
+
+## Do you sell additional Terminal Service Licenses?
+{: #do-you-sell-additional-terminal-service-licenses-}
+{: faq}
+
+We do sell these licenses in 5-packs.  You have a max of 2 RDP connections to your server by default.  If you add the 5-pack of terminal services it will remove those 2 original connections, and you will have the total of 5 licenses.  They are $5/month each so the 5-pack will be $25/month.
